@@ -134,7 +134,7 @@
       <SubSystem>Windows</SubSystem>
       <OutputFile>..\Build\Debug\Digit.exe</OutputFile>
       <AdditionalDependencies>MGTools.lib;InterfSolver.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>InterfSolver\Debug;MGTools\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>InterfSolver\Debug;MGTools\Debug;Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>

@@ -12,6 +12,12 @@
 	#error include 'stdafx.h' before including this file for PCH
 #endif
 
+#ifdef INTERFSOLVER_EXPORTS
+#define INTERF_API __declspec(dllexport)
+#else
+#define INTERF_API __declspec(dllimport)
+#endif
+
 #include "resource.h"		// main symbols
 
 /////////////////////////////////////////////////////////////////////////////

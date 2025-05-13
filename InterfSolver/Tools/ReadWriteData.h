@@ -4,14 +4,16 @@
 #include "NunberInfo.h"
 #include "CTIOFile.h"
 
-BOOL ReadZAPData(const CString &FileName, NUMBERING_INTERFEROGRAM_INFO &IntInfo); 
-BOOL ReadWinZAPData(const CString &FileName, NUMBERING_INTERFEROGRAM_INFO &IntInfo); 
-BOOL ReadDosZAPData(const CString &FileName, NUMBERING_INTERFEROGRAM_INFO &IntInfo); 
-BOOL ReadFRNData(const CString &FileName, NUMBERING_INTERFEROGRAM_INFO &IntInfo); 
-void WriteWinZAPData(const CString &FileName, NUMBERING_INTERFEROGRAM_INFO &IntInfo);
-void WriteDosZAPData(const CString &FileName, NUMBERING_INTERFEROGRAM_INFO &IntInfo);
-void WriteFRNData(const CString &FileName, NUMBERING_INTERFEROGRAM_INFO &IntInfo);
-void WritePolygon(CTextIOFile &Fl, XYPolygon &Plg, int NPntInStr = 4); 
-void WriteSection(CTextIOFile &Fl, SAMPLE_DATA &Sampl, int NPntInStr = 6); 
-void WriteFringe(CTextIOFile &Fl, SAMPLE_DATA &Sampl); 
+#include "..\InterfSolver.h"
+
+INTERF_API BOOL ReadZAPData(const CString &FileName, NUMBERING_INTERFEROGRAM_INFO &IntInfo);
+INTERF_API BOOL ReadWinZAPData(const CString &FileName, NUMBERING_INTERFEROGRAM_INFO &IntInfo);
+INTERF_API BOOL ReadDosZAPData(const CString &FileName, NUMBERING_INTERFEROGRAM_INFO &IntInfo);
+INTERF_API BOOL ReadFRNData(const CString &FileName, NUMBERING_INTERFEROGRAM_INFO &IntInfo);
+INTERF_API void WriteWinZAPData(const CString &FileName, NUMBERING_INTERFEROGRAM_INFO &IntInfo);
+INTERF_API void WriteDosZAPData(const CString &FileName, NUMBERING_INTERFEROGRAM_INFO &IntInfo);
+INTERF_API void WriteFRNData(const CString &FileName, NUMBERING_INTERFEROGRAM_INFO &IntInfo);
+INTERF_API void WritePolygon(CTextIOFile &Fl, XYPolygon &Plg, int NPntInStr = 4);
+INTERF_API void WriteSection(CTextIOFile &Fl, SAMPLE_DATA &Sampl, int NPntInStr = 6);
+INTERF_API void WriteFringe(CTextIOFile &Fl, SAMPLE_DATA &Sampl);
 #endif

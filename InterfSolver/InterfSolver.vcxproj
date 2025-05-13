@@ -102,7 +102,7 @@
       <WarningLevel>Level3</WarningLevel>
       <MinimalRebuild>true</MinimalRebuild>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_WINDLL;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_WINDLL;_USRDLL;INTERFSOLVER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
       <PrecompiledHeaderOutputFile>.\Debug\InterfSolver.pch</PrecompiledHeaderOutputFile>
       <PrecompiledHeader>
@@ -131,7 +131,7 @@
       <LinkDLL>true</LinkDLL>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
-	  <OutputFile>.\..\Debug\InterfSolver.dll</OutputFile>
+      <OutputFile>.\..\Debug\InterfSolver.dll</OutputFile>
       <ImportLibrary>..\Build\Debug\InterfSolver.lib</ImportLibrary>
       <ModuleDefinitionFile>.\InterfSolver.def</ModuleDefinitionFile>
     </Link>
