@@ -1,0 +1,20 @@
+; This file is maintained by HCW. Do not modify this file directly.
+
+[OPTIONS]
+COMPRESS=12 Hall Zeck
+ERRORLOG=Digit.LOG
+LCID=0x409 0x0 0x0 ; Английский (США)
+REPORT=Yes
+CONTENTS=main_index
+TITLE=Digit Application Help
+BMROOT=..
+BMROOT=.
+ROOT=..
+ROOT=.
+HLP=Digit.HLP
+
+[FILES]
+Digit.rtf
+
+[MAP]
+#include DigitHelp.hm

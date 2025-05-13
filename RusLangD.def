@@ -1,0 +1,6 @@
+; RusLangD.def : Declares the module parameters for the DLL.
+
+LIBRARY      "RusLangD"
+DESCRIPTION  'RusLangD Windows Dynamic Link Library'
+
+EXPORTS

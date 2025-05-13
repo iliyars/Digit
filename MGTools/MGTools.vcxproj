@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+    <ProjectGuid>{85762550-5D04-4917-BD43-07241A2869DF}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>D:\Numbering\Debug\</OutDir>
+    <IntDir>D:\Numbering\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;MGTOOLS_EXPORTS;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Debug\MGTools.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\MGTools.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0419</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\MGTools.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>D:\Numbering\Debug\MGTools.dll</OutputFile>
+      <ImportLibrary>D:\Numbering\Debug\MGTools.lib</ImportLibrary>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;glut32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>.\MGTools.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;MGTOOLS_EXPORTS;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Release\MGTools.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\MGTools.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0419</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\MGTools.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <LinkDLL>true</LinkDLL>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>.\Release\MGTools.dll</OutputFile>
+      <ImportLibrary>.\Release\MGTools.lib</ImportLibrary>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;glut32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>.\MGTools.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Graph\Palette.cpp" />
+    <ClCompile Include="Source\Utils\BaseDataType.cpp" />
+    <ClCompile Include="Source\Utils\BookMark.cpp" />
+    <ClCompile Include="Source\Utils\DibApi.cpp" />
+    <ClCompile Include="Source\Utils\Dibfile.cpp" />
+    <ClCompile Include="Source\Utils\filesys.cpp" />
+    <ClCompile Include="Source\Utils\LogoBmp.cpp" />
+    <ClCompile Include="Source\Utils\ModulVer.cpp" />
+    <ClCompile Include="Source\Utils\Msgqueue.cpp" />
+    <ClCompile Include="Source\Utils\OXCoolToolBar.cpp" />
+    <ClCompile Include="Source\Utils\SecMatrix.cpp" />
+    <ClCompile Include="Source\Utils\Splash.cpp" />
+    <ClCompile Include="Source\Utils\Utils.cpp" />
+    <ClCompile Include="Source\Utils\Xstatus4.cpp" />
+    <ClCompile Include="Source\Graph\2DGraph.cpp" />
+    <ClCompile Include="Source\Graph\3DGraph.cpp" />
+    <ClCompile Include="Source\Graph\contour.cpp" />
+    <ClCompile Include="Source\Graph\DataType.cpp" />
+    <ClCompile Include="Source\Graph\GraphFrame.cpp" />
+    <ClCompile Include="Source\Graph\GraphTools.cpp" />
+    <ClCompile Include="Source\Graph\IsolineGraph.cpp" />
+    <ClCompile Include="Source\Graph\MapGraph.cpp" />
+    <ClCompile Include="Source\Image\JPEG\JCAPIMIN.CPP" />
+    <ClCompile Include="Source\Image\JPEG\JCAPISTD.CPP" />
+    <ClCompile Include="Source\Image\JPEG\JCARITH.CPP" />
+    <ClCompile Include="Source\Image\JPEG\Jccoefct.cpp" />
+    <ClCompile Include="Source\Image\JPEG\Jccolor.cpp" />
+    <ClCompile Include="Source\Image\JPEG\JCDCTMGR.CPP" />
+    <ClCompile Include="Source\Image\JPEG\Jchuff.cpp" />
+    <ClCompile Include="Source\Image\JPEG\Jcinit.cpp" />
+    <ClCompile Include="Source\Image\JPEG\JCMAINCT.CPP" />
+    <ClCompile Include="Source\Image\JPEG\Jcmarker.cpp" />
+    <ClCompile Include="Source\Image\JPEG\Jcmaster.cpp" />
+    <ClCompile Include="Source\Image\JPEG\JCOMAPI.CPP" />
+    <ClCompile Include="Source\Image\JPEG\JCPARAM.CPP" />
+    <ClCompile Include="Source\Image\JPEG\Jcphuff.cpp" />
+    <ClCompile Include="Source\Image\JPEG\JCPREPCT.CPP" />
+    <ClCompile Include="Source\Image\JPEG\Jcsample.cpp" />
+    <ClCompile Include="Source\Image\JPEG\Jctrans.cpp" />
+    <ClCompile Include="Source\Image\JPEG\JDAPIMIN.CPP" />
+    <ClCompile Include="Source\Image\JPEG\JDAPISTD.CPP" />
+    <ClCompile Include="Source\Image\JPEG\JDARITH.CPP" />
+    <ClCompile Include="Source\Image\JPEG\Jdatadst.cpp" />
+    <ClCompile Include="Source\Image\JPEG\Jdatasrc.cpp" />
+    <ClCompile Include="Source\Image\JPEG\Jdcoefct.cpp" />
+    <ClCompile Include="Source\Image\JPEG\Jdcolor.cpp" />
+    <ClCompile Include="Source\Image\JPEG\JDDCTMGR.CPP" />
+    <ClCompile Include="Source\Image\JPEG\JDHUFF.CPP" />
+    <ClCompile Include="Source\Image\JPEG\JDINPUT.CPP" />
+    <ClCompile Include="Source\Image\JPEG\JDMAINCT.CPP" />
+    <ClCompile Include="Source\Image\JPEG\Jdmarker.cpp" />
+    <ClCompile Include="Source\Image\JPEG\Jdmaster.cpp" />
+    <ClCompile Include="Source\Image\JPEG\Jdmerge.cpp" />
+    <ClCompile Include="Source\Image\JPEG\Jdphuff.cpp" />
+    <ClCompile Include="Source\Image\JPEG\Jdpostct.cpp" />
+    <ClCompile Include="Source\Image\JPEG\Jdsample.cpp" />
+    <ClCompile Include="Source\Image\JPEG\JDTRANS.CPP" />
+    <ClCompile Include="Source\Image\JPEG\JERROR.CPP" />
+    <ClCompile Include="Source\Image\JPEG\JFDCTFLT.CPP" />
+    <ClCompile Include="Source\Image\JPEG\JFDCTFST.CPP" />
+    <ClCompile Include="Source\Image\JPEG\JFDCTINT.CPP" />
+    <ClCompile Include="Source\Image\JPEG\JIDCTFLT.CPP" />
+    <ClCompile Include="Source\Image\JPEG\JIDCTFST.CPP" />
+    <ClCompile Include="Source\Image\JPEG\JIDCTINT.CPP" />
+    <ClCompile Include="Source\Image\JPEG\JIDCTRED.CPP" />
+    <ClCompile Include="Source\Image\JPEG\Jmemansi.cpp" />
+    <ClCompile Include="Source\Image\JPEG\Jmemmgr.cpp" />
+    <ClCompile Include="Source\Image\JPEG\Jquant1.cpp" />
+    <ClCompile Include="Source\Image\JPEG\Jquant2.cpp" />
+    <ClCompile Include="Source\Image\JPEG\JUTILS.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_AUX.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_CCIT.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_CLOS.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_COMP.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_DIR.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_DIRI.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_DIRR.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_DIRW.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_DUMP.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_ERRO.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_FAX3.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_FAX4.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_FLUS.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_GETI.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_JPEG.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_LZW.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_MSDO.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_OPEN.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_PACK.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_PRIN.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_READ.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_STRI.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_SWAB.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_THUN.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_TILE.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_VERS.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_WARN.CPP" />
+    <ClCompile Include="Source\Image\TIFF\TIF_WRIT.CPP" />
+    <ClCompile Include="Source\Image\SECDIB.CPP" />
+    <ClCompile Include="Source\Image\SECDSP.CPP" />
+    <ClCompile Include="Source\Image\SECGIF.CPP" />
+    <ClCompile Include="Source\Image\SECIMAGE.CPP" />
+    <ClCompile Include="Source\Image\SECJPEG.CPP" />
+    <ClCompile Include="Source\Image\SECPCX.CPP" />
+    <ClCompile Include="Source\Image\SECTARGA.CPP" />
+    <ClCompile Include="Source\Image\SECTIFF.CPP" />
+    <ClCompile Include="Source\WndTabs\secaux.cpp" />
+    <ClCompile Include="Source\WndTabs\tabctrl.cpp" />
+    <ClCompile Include="Source\WndTabs\tabctrl3.cpp" />
+    <ClCompile Include="Source\WndTabs\tabctrlb.cpp" />
+    <ClCompile Include="Source\WndTabs\tabwnd.cpp" />
+    <ClCompile Include="Source\WndTabs\tabwnd3.cpp" />
+    <ClCompile Include="Source\WndTabs\tabwndb.cpp" />
+    <ClCompile Include="Source\SysInfo\Cpuid.c" />
+    <ClCompile Include="Source\SysInfo\OXSysInfo.cpp" />
+    <ClCompile Include="Source\SysInfo\Speed.c" />
+    <ClCompile Include="MGTools.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="MGTools.def" />
+    <CustomBuild Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Graph\Palette.h" />
+    <ClInclude Include="Include\Utils\BookMark.h" />
+    <ClInclude Include="Source\Utils\BookMark.h" />
+    <ClInclude Include="Include\Utils\DataType.h" />
+    <ClInclude Include="Include\Utils\DibApi.h" />
+    <ClInclude Include="Include\Utils\filesys.h" />
+    <ClInclude Include="Include\Utils\Fixmem.h" />
+    <ClInclude Include="Include\Utils\LogoBmp.h" />
+    <ClInclude Include="Include\Utils\memdc.h" />
+    <ClInclude Include="Include\Utils\ModulVer.h" />
+    <ClInclude Include="Include\Utils\MsgQueue.h" />
+    <ClInclude Include="Include\Utils\NotificationCode.h" />
+    <ClInclude Include="Include\Utils\OXCoolToolBar.h" />
+    <ClInclude Include="Include\Utils\OXDllExt.h" />
+    <ClInclude Include="Include\Utils\SecMatrix.h" />
+    <ClInclude Include="Include\Utils\Splash.h" />
+    <ClInclude Include="Include\Utils\Utils.h" />
+    <ClInclude Include="Include\Utils\XSTATUS4.h" />
+    <ClInclude Include="Include\Graph\2DGraph.h" />
+    <ClInclude Include="Include\Graph\3DGraph.h" />
+    <ClInclude Include="Include\Utils\BaseDataType.h" />
+    <ClInclude Include="Include\Graph\contour.h" />
+    <ClInclude Include="Include\Graph\def.h" />
+    <ClInclude Include="Include\Graph\glut.h" />
+    <ClInclude Include="Include\Graph\GraphFrame.h" />
+    <ClInclude Include="Include\Graph\GraphTools.h" />
+    <ClInclude Include="Include\Graph\IsolineGraph.h" />
+    <ClInclude Include="Include\Graph\MapGraph.h" />
+    <ClInclude Include="Include\Image\JCHUFF.H" />
+    <ClInclude Include="Include\Image\JCONFIG.H" />
+    <ClInclude Include="Include\Image\JDCT.H" />
+    <ClInclude Include="Include\Image\JDHUFF.H" />
+    <ClInclude Include="Include\Image\JERROR.H" />
+    <ClInclude Include="Include\Image\JINCLUDE.H" />
+    <ClInclude Include="Include\Image\JMEMSYS.H" />
+    <ClInclude Include="Include\Image\JMORECFG.H" />
+    <ClInclude Include="Include\Image\Jpegint.h" />
+    <ClInclude Include="Include\Image\Jpeglib.h" />
+    <ClInclude Include="Include\Image\JVERSION.H" />
+    <ClInclude Include="Include\Image\ot_sectiff.h" />
+    <ClInclude Include="Include\Image\SECDIB.H" />
+    <ClInclude Include="Include\Image\SECGIF.H" />
+    <ClInclude Include="Include\Image\SECIMAGE.H" />
+    <ClInclude Include="Include\Image\SECJPEG.H" />
+    <ClInclude Include="Include\Image\SECPCX.H" />
+    <ClInclude Include="Include\Image\SECTARGA.H" />
+    <ClInclude Include="Include\Image\SECTIFF.H" />
+    <ClInclude Include="Include\Image\T4.H" />
+    <ClInclude Include="Include\Image\TIF_FAX3.H" />
+    <ClInclude Include="Include\Image\TIFF.H" />
+    <ClInclude Include="Include\Image\TIFFCOMP.H" />
+    <ClInclude Include="Include\Image\TIFFCONF.H" />
+    <ClInclude Include="Include\Image\TIFFIO.H" />
+    <ClInclude Include="Include\Image\TIFFIOP.H" />
+    <ClInclude Include="Include\WndTabs\osc_cmnres.h" />
+    <ClInclude Include="Include\WndTabs\secaux.h" />
+    <ClInclude Include="Include\WndTabs\SECRES.H" />
+    <ClInclude Include="Include\WndTabs\tabctrl3.h" />
+    <ClInclude Include="Include\WndTabs\tabctrlb.h" />
+    <ClInclude Include="Include\WndTabs\tabwnd.h" />
+    <ClInclude Include="Include\WndTabs\tabwnd3.h" />
+    <ClInclude Include="Include\WndTabs\tabwndb.h" />
+    <ClInclude Include="Include\SysInfo\Cpuid.h" />
+    <ClInclude Include="Include\SysInfo\OXDllExt.h" />
+    <ClInclude Include="Include\SysInfo\OXSysInfo.h" />
+    <ClInclude Include="Include\SysInfo\Speed.h" />
+    <ClInclude Include="MGTools.h" />
+    <ClInclude Include="StdAfx.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

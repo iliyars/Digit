@@ -1,0 +1,6 @@
+; EngLangD.def : Declares the module parameters for the DLL.
+
+LIBRARY      "EngLangD"
+DESCRIPTION  'EngLangD Windows Dynamic Link Library'
+
+EXPORTS

@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{502724fd-881e-4fb7-9e4e-72bae055446d}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{9b5f886d-6939-44ae-b052-e5d161e36db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Numbering">
+      <UniqueIdentifier>{fce1d6e6-9915-4eb8-aaf0-391fa9378399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c05f7aa7-a53c-457f-8821-6280a7d78c0b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Include_H">
+      <UniqueIdentifier>{d79efc87-7382-4aa7-b0d7-c7eacfbf25ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Numbering_H">
+      <UniqueIdentifier>{120f8598-3ddc-4106-81cc-0e981a6dbeed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{df85b05a-8638-4d72-97d6-3aa8710d608b}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tools\CalcContour.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\CalcLimits.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\CTIOFile.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\GetTimeDate.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\isPupil.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Matin1.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Matrix.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\NunberInfo.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\PolApproximation.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ReadWriteData.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\SamplDat.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Sort.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Vector.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\XYBrokenLine.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\XYEllipse.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\XYPolygon.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\XYPolynom.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\XYRect.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Numbering\CalcAprImageMatr.cpp">
+      <Filter>Source Files\Numbering</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ClassicAberr.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="InterfSolver.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tools\CalcContour.h">
+      <Filter>Header Files\Include_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\CalcLimits.h">
+      <Filter>Header Files\Include_H</Filter>
+    </ClInclude>
+    <ClInclude Include="INCLUDE\CArrDef.h">
+      <Filter>Header Files\Include_H</Filter>
+    </ClInclude>
+    <ClInclude Include="INCLUDE\complex.h">
+      <Filter>Header Files\Include_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\CTIOFile.h">
+      <Filter>Header Files\Include_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\GetTimeDate.h">
+      <Filter>Header Files\Include_H</Filter>
+    </ClInclude>
+    <ClInclude Include="INCLUDE\Int_Cons.h">
+      <Filter>Header Files\Include_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\isPupil.h">
+      <Filter>Header Files\Include_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Matin1.h">
+      <Filter>Header Files\Include_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Matrix.h">
+      <Filter>Header Files\Include_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\NunberInfo.h">
+      <Filter>Header Files\Include_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\PolApproximation.h">
+      <Filter>Header Files\Include_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\SamplDat.h">
+      <Filter>Header Files\Include_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Vector.h">
+      <Filter>Header Files\Include_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\XYBounds.h">
+      <Filter>Header Files\Include_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\XYBrokenLine.h">
+      <Filter>Header Files\Include_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\XYEllipse.h">
+      <Filter>Header Files\Include_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\XYPoint.h">
+      <Filter>Header Files\Include_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\XYPolygon.h">
+      <Filter>Header Files\Include_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\XYPolynom.h">
+      <Filter>Header Files\Include_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\XYRect.h">
+      <Filter>Header Files\Include_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Numbering\CalcAprImageMatr.h">
+      <Filter>Header Files\Numbering_H</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ReadWriteData.h">
+      <Filter>Header Files\Include_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ClassicAberr.h">
+      <Filter>Header Files\Include_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Sort.h">
+      <Filter>Header Files\Include_H</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="InterfSolver.def">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\InterfSolver.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

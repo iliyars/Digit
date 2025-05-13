@@ -1,0 +1,621 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ef42eec4-4a14-4f3f-be9b-0ab495cd7663}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{773cc266-c70f-4e5d-ad03-62ee53f7fb8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graph">
+      <UniqueIdentifier>{4e3be5df-c1bb-4ff9-8211-9d2b56668e9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image">
+      <UniqueIdentifier>{e2af3b5f-e2d5-4119-b2b6-81e4fb807513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image\Jpeg">
+      <UniqueIdentifier>{7cd6cb74-8409-495c-8d11-6b3ad02bd3ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image\Tiff">
+      <UniqueIdentifier>{bc02229f-960c-4559-b079-d6badbe50a12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WndTabs">
+      <UniqueIdentifier>{b9f95f62-e36f-4bfa-83d1-e6a595ed6eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SysInfo">
+      <UniqueIdentifier>{3c9b57b7-5c99-4a26-9330-709fff997b7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9cdf6c08-a3de-4c88-bdcb-cd7d9e2f53b4}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Utils_H">
+      <UniqueIdentifier>{5c13d6d4-f244-4246-8fc7-b3f68161da87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graph_H">
+      <UniqueIdentifier>{88153416-9b05-4cb2-9379-02264b73f5dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Image_H">
+      <UniqueIdentifier>{10c26fe4-be17-4b49-b2dd-09e54f5cdafe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WndTabs_H">
+      <UniqueIdentifier>{f6fb685b-7c2d-4de2-a255-9cd22e28f0cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SysInfo_H">
+      <UniqueIdentifier>{735cb252-a010-4e2f-86ec-c773aa6e5c22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{cecff886-3f89-40f8-a106-2e02c6cf64e1}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Utils\BaseDataType.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils\BookMark.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils\DibApi.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils\Dibfile.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils\filesys.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils\LogoBmp.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils\ModulVer.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils\Msgqueue.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils\OXCoolToolBar.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils\SecMatrix.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils\Splash.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils\Utils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils\Xstatus4.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graph\2DGraph.cpp">
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graph\3DGraph.cpp">
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graph\contour.cpp">
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graph\DataType.cpp">
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graph\GraphFrame.cpp">
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graph\GraphTools.cpp">
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graph\IsolineGraph.cpp">
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graph\MapGraph.cpp">
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\JCAPIMIN.CPP">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\JCAPISTD.CPP">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\JCARITH.CPP">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\Jccoefct.cpp">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\Jccolor.cpp">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\JCDCTMGR.CPP">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\Jchuff.cpp">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\Jcinit.cpp">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\JCMAINCT.CPP">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\Jcmarker.cpp">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\Jcmaster.cpp">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\JCOMAPI.CPP">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\JCPARAM.CPP">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\Jcphuff.cpp">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\JCPREPCT.CPP">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\Jcsample.cpp">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\Jctrans.cpp">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\JDAPIMIN.CPP">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\JDAPISTD.CPP">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\JDARITH.CPP">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\Jdatadst.cpp">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\Jdatasrc.cpp">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\Jdcoefct.cpp">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\Jdcolor.cpp">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\JDDCTMGR.CPP">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\JDHUFF.CPP">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\JDINPUT.CPP">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\JDMAINCT.CPP">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\Jdmarker.cpp">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\Jdmaster.cpp">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\Jdmerge.cpp">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\Jdphuff.cpp">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\Jdpostct.cpp">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\Jdsample.cpp">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\JDTRANS.CPP">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\JERROR.CPP">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\JFDCTFLT.CPP">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\JFDCTFST.CPP">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\JFDCTINT.CPP">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\JIDCTFLT.CPP">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\JIDCTFST.CPP">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\JIDCTINT.CPP">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\JIDCTRED.CPP">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\Jmemansi.cpp">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\Jmemmgr.cpp">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\Jquant1.cpp">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\Jquant2.cpp">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\JPEG\JUTILS.CPP">
+      <Filter>Source Files\Image\Jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_AUX.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_CCIT.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_CLOS.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_COMP.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_DIR.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_DIRI.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_DIRR.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_DIRW.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_DUMP.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_ERRO.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_FAX3.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_FAX4.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_FLUS.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_GETI.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_JPEG.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_LZW.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_MSDO.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_OPEN.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_PACK.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_PRIN.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_READ.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_STRI.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_SWAB.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_THUN.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_TILE.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_VERS.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_WARN.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\TIFF\TIF_WRIT.CPP">
+      <Filter>Source Files\Image\Tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\SECDIB.CPP">
+      <Filter>Source Files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\SECDSP.CPP">
+      <Filter>Source Files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\SECGIF.CPP">
+      <Filter>Source Files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\SECIMAGE.CPP">
+      <Filter>Source Files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\SECJPEG.CPP">
+      <Filter>Source Files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\SECPCX.CPP">
+      <Filter>Source Files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\SECTARGA.CPP">
+      <Filter>Source Files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Image\SECTIFF.CPP">
+      <Filter>Source Files\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WndTabs\secaux.cpp">
+      <Filter>Source Files\WndTabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WndTabs\tabctrl.cpp">
+      <Filter>Source Files\WndTabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WndTabs\tabctrl3.cpp">
+      <Filter>Source Files\WndTabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WndTabs\tabctrlb.cpp">
+      <Filter>Source Files\WndTabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WndTabs\tabwnd.cpp">
+      <Filter>Source Files\WndTabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WndTabs\tabwnd3.cpp">
+      <Filter>Source Files\WndTabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WndTabs\tabwndb.cpp">
+      <Filter>Source Files\WndTabs</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SysInfo\Cpuid.c">
+      <Filter>Source Files\SysInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SysInfo\OXSysInfo.cpp">
+      <Filter>Source Files\SysInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SysInfo\Speed.c">
+      <Filter>Source Files\SysInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="MGTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graph\Palette.cpp">
+      <Filter>Source Files\Graph</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Utils\BookMark.h">
+      <Filter>Header Files\Utils_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utils\BookMark.h">
+      <Filter>Header Files\Utils_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Utils\DataType.h">
+      <Filter>Header Files\Utils_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Utils\DibApi.h">
+      <Filter>Header Files\Utils_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Utils\filesys.h">
+      <Filter>Header Files\Utils_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Utils\Fixmem.h">
+      <Filter>Header Files\Utils_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Utils\LogoBmp.h">
+      <Filter>Header Files\Utils_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Utils\memdc.h">
+      <Filter>Header Files\Utils_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Utils\ModulVer.h">
+      <Filter>Header Files\Utils_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Utils\MsgQueue.h">
+      <Filter>Header Files\Utils_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Utils\NotificationCode.h">
+      <Filter>Header Files\Utils_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Utils\OXCoolToolBar.h">
+      <Filter>Header Files\Utils_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Utils\OXDllExt.h">
+      <Filter>Header Files\Utils_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Utils\SecMatrix.h">
+      <Filter>Header Files\Utils_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Utils\Splash.h">
+      <Filter>Header Files\Utils_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Utils\Utils.h">
+      <Filter>Header Files\Utils_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Utils\XSTATUS4.h">
+      <Filter>Header Files\Utils_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Graph\2DGraph.h">
+      <Filter>Header Files\Graph_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Graph\3DGraph.h">
+      <Filter>Header Files\Graph_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Utils\BaseDataType.h">
+      <Filter>Header Files\Graph_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Graph\contour.h">
+      <Filter>Header Files\Graph_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Graph\def.h">
+      <Filter>Header Files\Graph_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Graph\glut.h">
+      <Filter>Header Files\Graph_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Graph\GraphFrame.h">
+      <Filter>Header Files\Graph_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Graph\GraphTools.h">
+      <Filter>Header Files\Graph_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Graph\IsolineGraph.h">
+      <Filter>Header Files\Graph_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Graph\MapGraph.h">
+      <Filter>Header Files\Graph_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\JCHUFF.H">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\JCONFIG.H">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\JDCT.H">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\JDHUFF.H">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\JERROR.H">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\JINCLUDE.H">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\JMEMSYS.H">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\JMORECFG.H">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\Jpegint.h">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\Jpeglib.h">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\JVERSION.H">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\ot_sectiff.h">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\SECDIB.H">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\SECGIF.H">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\SECIMAGE.H">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\SECJPEG.H">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\SECPCX.H">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\SECTARGA.H">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\SECTIFF.H">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\T4.H">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\TIF_FAX3.H">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\TIFF.H">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\TIFFCOMP.H">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\TIFFCONF.H">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\TIFFIO.H">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Image\TIFFIOP.H">
+      <Filter>Header Files\Image_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WndTabs\osc_cmnres.h">
+      <Filter>Header Files\WndTabs_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WndTabs\secaux.h">
+      <Filter>Header Files\WndTabs_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WndTabs\SECRES.H">
+      <Filter>Header Files\WndTabs_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WndTabs\tabctrl3.h">
+      <Filter>Header Files\WndTabs_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WndTabs\tabctrlb.h">
+      <Filter>Header Files\WndTabs_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WndTabs\tabwnd.h">
+      <Filter>Header Files\WndTabs_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WndTabs\tabwnd3.h">
+      <Filter>Header Files\WndTabs_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WndTabs\tabwndb.h">
+      <Filter>Header Files\WndTabs_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SysInfo\Cpuid.h">
+      <Filter>Header Files\SysInfo_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SysInfo\OXDllExt.h">
+      <Filter>Header Files\SysInfo_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SysInfo\OXSysInfo.h">
+      <Filter>Header Files\SysInfo_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SysInfo\Speed.h">
+      <Filter>Header Files\SysInfo_H</Filter>
+    </ClInclude>
+    <ClInclude Include="MGTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Graph\Palette.h">
+      <Filter>Header Files\Graph_H</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="MGTools.def">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

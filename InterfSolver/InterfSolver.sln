@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InterfSolver", "InterfSolver.vcxproj", "{D427EE42-6D63-CC23-9451-AA82FF993D56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D427EE42-6D63-CC23-9451-AA82FF993D56}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D427EE42-6D63-CC23-9451-AA82FF993D56}.Debug|Win32.Build.0 = Debug|Win32
+		{D427EE42-6D63-CC23-9451-AA82FF993D56}.Release|Win32.ActiveCfg = Release|Win32
+		{D427EE42-6D63-CC23-9451-AA82FF993D56}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

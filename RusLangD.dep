@@ -1,0 +1,37 @@
+# Microsoft Developer Studio Generated Dependency File, included by RusLangD.mak
+
+.\Options\ApproxSetDlg.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	".\appdef.h"\
+	".\Controls\controls.h"\
+	".\Digit.h"\
+	".\Options\ApproxSetDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\RusLangD.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	".\StdAfx.h"\
+	
+
+.\RusLangD.rc : \
+	".\Res\bmp00001.bmp"\
+	".\Res\bmp00002.bmp"\
+	".\Res\cursor1.cur"\
+	".\res\Digit.ico"\
+	".\res\Digit.rc2"\
+	".\res\DigitDoc.ico"\
+	".\Res\digittoo.bmp"\
+	".\Res\harrow.cur"\
+	".\Res\hnwse.cur"\
+	".\Res\markpt.cur"\
+	".\Res\measure.CUR"\
+	".\Res\rect_bou.cur"\
+	".\Res\sel_dot.cur"\
+	".\Res\sel_zap_.cur"\
+	".\Res\toolbar1.bmp"\
+	".\Res\viewtool.bmp"\
+	".\Res\ZOOMIN.CUR"\
+	".\Res\ZOOMOUT.CUR"\
+	".\Res\ZOOMRECT.CUR"\
+	

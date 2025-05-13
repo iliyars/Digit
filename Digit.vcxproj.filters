@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1319e6b5-7fce-4ff2-bfc1-a095b450dd8e}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\MainFrame">
+      <UniqueIdentifier>{34bb5923-e1d6-4d90-b9af-5a4627a0c5a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controls">
+      <UniqueIdentifier>{28b7bce0-d665-4cfe-b315-84998f18f039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{aac184bc-7793-4fd2-af38-5a3ea335c1a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils\Edit">
+      <UniqueIdentifier>{a1a8bdd9-cc04-4f07-b734-b537b9076c35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils\Graph">
+      <UniqueIdentifier>{a8f1a9c3-ba1d-461b-b28a-56e127ed8277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImageTempl">
+      <UniqueIdentifier>{5ac80999-18b8-40e1-8655-10d2d29c0f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Options">
+      <UniqueIdentifier>{b9dcf69b-87a4-4cad-9b85-e4288ff5c7b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImageFeatures">
+      <UniqueIdentifier>{96c3490d-52c8-4785-931e-db74d8cfabb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DigitMode">
+      <UniqueIdentifier>{ad223088-0094-4b4e-adf3-16d7cd31de50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c82fc0b1-7198-4974-bbeb-96ba4bc22d9b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\MainFrame_H">
+      <UniqueIdentifier>{2d6d7d53-4e5c-499d-970c-2e2138dc8b1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controls_H">
+      <UniqueIdentifier>{a3c1e23d-d77e-40d4-9f58-6a72b3604a38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils_H">
+      <UniqueIdentifier>{6c1ae8ce-ac27-48dc-b3bc-71f76d2e9040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils_H\Edit_H">
+      <UniqueIdentifier>{58e3639a-4dd5-4d0c-967e-adbe53fdd139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils_H\Graph_H">
+      <UniqueIdentifier>{c0a1bdba-12be-4f90-b6c8-0846c5b5c6ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ImageTempl_H">
+      <UniqueIdentifier>{0be980da-f417-4bc8-a876-38f5a1803487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Options_H">
+      <UniqueIdentifier>{e127b6e5-6ec3-4b05-8a7a-3a5d2a7ae71c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ImageFeatures_H">
+      <UniqueIdentifier>{bf7964f1-79fb-4cba-b294-9da8e1031e03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DigitMode_H">
+      <UniqueIdentifier>{4fd79c38-9b39-4f0d-8b7c-cea8a0a8b986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{587420ef-a679-4f86-a508-5110ba73ecc4}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Help Files">
+      <UniqueIdentifier>{685792a3-dfec-4ce5-9f9d-6823d38a07aa}</UniqueIdentifier>
+      <Extensions>cnt;rtf</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrame\CommentsFileDlg.cpp">
+      <Filter>Source Files\MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame\MainFrm.cpp">
+      <Filter>Source Files\MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\BoundCtrls.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\controls.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\ImageCtrls.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Edit\BaseTextDoc.cpp">
+      <Filter>Source Files\Utils\Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Edit\BaseTextFrm.cpp">
+      <Filter>Source Files\Utils\Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Edit\BaseTextView.cpp">
+      <Filter>Source Files\Utils\Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Edit\TextChildFrm.cpp">
+      <Filter>Source Files\Utils\Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Graph\3DGraphDoc.cpp">
+      <Filter>Source Files\Utils\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Graph\GraphChildFrm.cpp">
+      <Filter>Source Files\Utils\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Graph\GraphDoc.cpp">
+      <Filter>Source Files\Utils\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Cmdlg.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\contour.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls\MeasureCtrls.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\middle.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\mutils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\SpecFileDlg.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\StateListBox.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Tracker.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\ZOOMVIEW.CPP">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageTempl\BaseImageDoc.cpp">
+      <Filter>Source Files\ImageTempl</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageTempl\BaseImageView.cpp">
+      <Filter>Source Files\ImageTempl</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageTempl\ImageChildFrm.cpp">
+      <Filter>Source Files\ImageTempl</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageTempl\ImageDoc.cpp">
+      <Filter>Source Files\ImageTempl</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageTempl\ImageView.cpp">
+      <Filter>Source Files\ImageTempl</Filter>
+    </ClCompile>
+    <ClCompile Include="Options\ApproxSetDlg.cpp">
+      <Filter>Source Files\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="Options\ToolBarsDlg.cpp">
+      <Filter>Source Files\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageFeatures\SectionFrame.cpp">
+      <Filter>Source Files\ImageFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageFeatures\ZoomDlg.cpp">
+      <Filter>Source Files\ImageFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="DigitMode\DigitInfo.cpp">
+      <Filter>Source Files\DigitMode</Filter>
+    </ClCompile>
+    <ClCompile Include="DigitMode\DotInfo.cpp">
+      <Filter>Source Files\DigitMode</Filter>
+    </ClCompile>
+    <ClCompile Include="DigitMode\SectionInfo.cpp">
+      <Filter>Source Files\DigitMode</Filter>
+    </ClCompile>
+    <ClCompile Include="DigitMode\ZapLineInfo.cpp">
+      <Filter>Source Files\DigitMode</Filter>
+    </ClCompile>
+    <ClCompile Include="Digit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Digit.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrame\CommentsFileDlg.h">
+      <Filter>Header Files\MainFrame_H</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrame\MainFrm.h">
+      <Filter>Header Files\MainFrame_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\BoundCtrls.h">
+      <Filter>Header Files\Controls_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\controls.h">
+      <Filter>Header Files\Controls_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\ImageCtrls.h">
+      <Filter>Header Files\Controls_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls\MeasureCtrls.h">
+      <Filter>Header Files\Controls_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Edit\BaseTextDoc.h">
+      <Filter>Header Files\Utils_H\Edit_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Edit\BaseTextFrm.h">
+      <Filter>Header Files\Utils_H\Edit_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Edit\BaseTextView.h">
+      <Filter>Header Files\Utils_H\Edit_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Edit\TextChildFrm.h">
+      <Filter>Header Files\Utils_H\Edit_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Graph\3DGraphDoc.h">
+      <Filter>Header Files\Utils_H\Graph_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Graph\GraphChildFrm.h">
+      <Filter>Header Files\Utils_H\Graph_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Graph\GraphDoc.h">
+      <Filter>Header Files\Utils_H\Graph_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Cmdlg.h">
+      <Filter>Header Files\Utils_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\middle.h">
+      <Filter>Header Files\Utils_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\mutils.h">
+      <Filter>Header Files\Utils_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\SECPANVW.H">
+      <Filter>Header Files\Utils_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\SpecFileDlg.h">
+      <Filter>Header Files\Utils_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\StateListBox.h">
+      <Filter>Header Files\Utils_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Tracker.h">
+      <Filter>Header Files\Utils_H</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageTempl\BaseImageDoc.h">
+      <Filter>Header Files\ImageTempl_H</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageTempl\BaseImageView.h">
+      <Filter>Header Files\ImageTempl_H</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageTempl\ImageChildFrm.h">
+      <Filter>Header Files\ImageTempl_H</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageTempl\ImageDoc.h">
+      <Filter>Header Files\ImageTempl_H</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageTempl\ImageView.h">
+      <Filter>Header Files\ImageTempl_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Options\ApproxSetDlg.h">
+      <Filter>Header Files\Options_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Options\ToolBarsDlg.h">
+      <Filter>Header Files\Options_H</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageFeatures\SectionFrame.h">
+      <Filter>Header Files\ImageFeatures_H</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageFeatures\ZoomDlg.h">
+      <Filter>Header Files\ImageFeatures_H</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitMode\DigitInfo.h">
+      <Filter>Header Files\DigitMode_H</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitMode\DotInfo.h">
+      <Filter>Header Files\DigitMode_H</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitMode\SectionInfo.h">
+      <Filter>Header Files\DigitMode_H</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitMode\ZapLineInfo.h">
+      <Filter>Header Files\DigitMode_H</Filter>
+    </ClInclude>
+    <ClInclude Include="Digit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RusLangD.vcxproj.filters" />
+  </ItemGroup>
+</Project>

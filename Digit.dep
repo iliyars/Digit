@@ -1,0 +1,1251 @@
+# Microsoft Developer Studio Generated Dependency File, included by Digit.mak
+
+.\MainFrame\CommentsFileDlg.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	".\appdef.h"\
+	".\Controls\controls.h"\
+	".\Digit.h"\
+	".\MainFrame\CommentsFileDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\MainFrame\MainFrm.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\image\secdib.h"\
+	"..\..\mgtools\include\image\secimage.h"\
+	"..\..\mgtools\include\utils\basedatatype.h"\
+	"..\interfsolver\include\carrdef.h"\
+	"..\interfsolver\include\complex.h"\
+	"..\interfsolver\include\int_cons.h"\
+	"..\interfsolver\numbering\calcaprimagematr.h"\
+	"..\interfsolver\stdafx.h"\
+	"..\interfsolver\tools\calccontour.h"\
+	"..\interfsolver\tools\calclimits.h"\
+	"..\interfsolver\tools\ctiofile.h"\
+	"..\interfsolver\tools\ispupil.h"\
+	"..\interfsolver\tools\matrix.h"\
+	"..\interfsolver\tools\nunberinfo.h"\
+	"..\interfsolver\tools\polapproximation.h"\
+	"..\interfsolver\tools\readwritedata.h"\
+	"..\interfsolver\tools\sampldat.h"\
+	"..\interfsolver\tools\vector.h"\
+	"..\interfsolver\tools\xybounds.h"\
+	"..\interfsolver\tools\xybrokenline.h"\
+	"..\interfsolver\tools\xyellipse.h"\
+	"..\interfsolver\tools\xypoint.h"\
+	"..\interfsolver\tools\xypolygon.h"\
+	"..\interfsolver\tools\xypolynom.h"\
+	"..\interfsolver\tools\xyrect.h"\
+	".\appdef.h"\
+	".\Controls\BoundCtrls.h"\
+	".\Controls\controls.h"\
+	".\Controls\ImageCtrls.h"\
+	".\Controls\MeasureCtrls.h"\
+	".\Digit.h"\
+	".\DigitMode\DigitInfo.h"\
+	".\DigitMode\DotInfo.h"\
+	".\DigitMode\SectionInfo.h"\
+	".\DigitMode\ZapLineInfo.h"\
+	".\ImageTempl\BaseImageDoc.h"\
+	".\ImageTempl\BaseImageView.h"\
+	".\ImageTempl\ImageDoc.h"\
+	".\ImageTempl\ImageView.h"\
+	".\MainFrame\CommentsFileDlg.h"\
+	".\MainFrame\MainFrm.h"\
+	".\Options\ToolBarsDlg.h"\
+	".\StdAfx.h"\
+	".\utils\contour.h"\
+	".\Utils\mutils.h"\
+	".\utils\seczmvw.h"\
+	".\Utils\StateListBox.h"\
+	".\Utils\Tracker.h"\
+	
+
+.\Controls\BoundCtrls.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\image\secdib.h"\
+	"..\..\mgtools\include\image\secimage.h"\
+	"..\..\mgtools\include\utils\basedatatype.h"\
+	"..\interfsolver\include\carrdef.h"\
+	"..\interfsolver\include\complex.h"\
+	"..\interfsolver\include\int_cons.h"\
+	"..\interfsolver\stdafx.h"\
+	"..\interfsolver\tools\calccontour.h"\
+	"..\interfsolver\tools\calclimits.h"\
+	"..\interfsolver\tools\ctiofile.h"\
+	"..\interfsolver\tools\ispupil.h"\
+	"..\interfsolver\tools\nunberinfo.h"\
+	"..\interfsolver\tools\readwritedata.h"\
+	"..\interfsolver\tools\sampldat.h"\
+	"..\interfsolver\tools\xybounds.h"\
+	"..\interfsolver\tools\xybrokenline.h"\
+	"..\interfsolver\tools\xyellipse.h"\
+	"..\interfsolver\tools\xypoint.h"\
+	"..\interfsolver\tools\xypolygon.h"\
+	"..\interfsolver\tools\xyrect.h"\
+	".\appdef.h"\
+	".\Controls\BoundCtrls.h"\
+	".\Controls\controls.h"\
+	".\Controls\ImageCtrls.h"\
+	".\Controls\MeasureCtrls.h"\
+	".\Digit.h"\
+	".\DigitMode\DigitInfo.h"\
+	".\DigitMode\DotInfo.h"\
+	".\DigitMode\SectionInfo.h"\
+	".\DigitMode\ZapLineInfo.h"\
+	".\MainFrame\CommentsFileDlg.h"\
+	".\MainFrame\MainFrm.h"\
+	".\StdAfx.h"\
+	".\Utils\mutils.h"\
+	
+
+.\Controls\controls.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\image\secdib.h"\
+	"..\..\mgtools\include\image\secimage.h"\
+	"..\..\mgtools\include\utils\basedatatype.h"\
+	"..\..\mgtools\include\utils\fixmem.h"\
+	"..\..\mgtools\include\utils\utils.h"\
+	"..\interfsolver\include\carrdef.h"\
+	"..\interfsolver\include\complex.h"\
+	"..\interfsolver\include\int_cons.h"\
+	"..\interfsolver\numbering\calcaprimagematr.h"\
+	"..\interfsolver\stdafx.h"\
+	"..\interfsolver\tools\calccontour.h"\
+	"..\interfsolver\tools\calclimits.h"\
+	"..\interfsolver\tools\ctiofile.h"\
+	"..\interfsolver\tools\ispupil.h"\
+	"..\interfsolver\tools\matrix.h"\
+	"..\interfsolver\tools\nunberinfo.h"\
+	"..\interfsolver\tools\polapproximation.h"\
+	"..\interfsolver\tools\readwritedata.h"\
+	"..\interfsolver\tools\sampldat.h"\
+	"..\interfsolver\tools\vector.h"\
+	"..\interfsolver\tools\xybounds.h"\
+	"..\interfsolver\tools\xybrokenline.h"\
+	"..\interfsolver\tools\xyellipse.h"\
+	"..\interfsolver\tools\xypoint.h"\
+	"..\interfsolver\tools\xypolygon.h"\
+	"..\interfsolver\tools\xypolynom.h"\
+	"..\interfsolver\tools\xyrect.h"\
+	".\appdef.h"\
+	".\Controls\BoundCtrls.h"\
+	".\Controls\controls.h"\
+	".\Controls\ImageCtrls.h"\
+	".\Controls\MeasureCtrls.h"\
+	".\Digit.h"\
+	".\DigitMode\DigitInfo.h"\
+	".\DigitMode\DotInfo.h"\
+	".\DigitMode\SectionInfo.h"\
+	".\DigitMode\ZapLineInfo.h"\
+	".\ImageTempl\BaseImageDoc.h"\
+	".\ImageTempl\BaseImageView.h"\
+	".\ImageTempl\ImageDoc.h"\
+	".\ImageTempl\ImageView.h"\
+	".\MainFrame\CommentsFileDlg.h"\
+	".\MainFrame\MainFrm.h"\
+	".\StdAfx.h"\
+	".\utils\contour.h"\
+	".\Utils\mutils.h"\
+	".\utils\seczmvw.h"\
+	".\Utils\Tracker.h"\
+	
+
+.\Controls\ImageCtrls.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\image\jchuff.h"\
+	"..\..\mgtools\include\image\jconfig.h"\
+	"..\..\mgtools\include\image\jdct.h"\
+	"..\..\mgtools\include\image\jdhuff.h"\
+	"..\..\mgtools\include\image\jerror.h"\
+	"..\..\mgtools\include\image\jinclude.h"\
+	"..\..\mgtools\include\image\jmemsys.h"\
+	"..\..\mgtools\include\image\jmorecfg.h"\
+	"..\..\mgtools\include\image\jpegint.h"\
+	"..\..\mgtools\include\image\jpeglib.h"\
+	"..\..\mgtools\include\image\secdib.h"\
+	"..\..\mgtools\include\image\secgif.h"\
+	"..\..\mgtools\include\image\secimage.h"\
+	"..\..\mgtools\include\image\secjpeg.h"\
+	"..\..\mgtools\include\image\secpcx.h"\
+	"..\..\mgtools\include\image\sectarga.h"\
+	"..\..\mgtools\include\image\sectiff.h"\
+	"..\..\mgtools\include\image\t4.h"\
+	"..\..\mgtools\include\image\tiff.h"\
+	"..\..\mgtools\include\image\tiffcomp.h"\
+	"..\..\mgtools\include\image\tiffconf.h"\
+	"..\..\mgtools\include\image\tiffio.h"\
+	"..\..\mgtools\include\image\tiffiop.h"\
+	"..\..\mgtools\include\utils\basedatatype.h"\
+	"..\..\mgtools\include\utils\fixmem.h"\
+	"..\..\mgtools\include\utils\utils.h"\
+	"..\interfsolver\include\carrdef.h"\
+	"..\interfsolver\include\complex.h"\
+	"..\interfsolver\include\int_cons.h"\
+	"..\interfsolver\stdafx.h"\
+	"..\interfsolver\tools\calccontour.h"\
+	"..\interfsolver\tools\calclimits.h"\
+	"..\interfsolver\tools\ctiofile.h"\
+	"..\interfsolver\tools\ispupil.h"\
+	"..\interfsolver\tools\nunberinfo.h"\
+	"..\interfsolver\tools\readwritedata.h"\
+	"..\interfsolver\tools\sampldat.h"\
+	"..\interfsolver\tools\xybounds.h"\
+	"..\interfsolver\tools\xybrokenline.h"\
+	"..\interfsolver\tools\xyellipse.h"\
+	"..\interfsolver\tools\xypoint.h"\
+	"..\interfsolver\tools\xypolygon.h"\
+	"..\interfsolver\tools\xyrect.h"\
+	".\appdef.h"\
+	".\Controls\BoundCtrls.h"\
+	".\Controls\controls.h"\
+	".\Controls\ImageCtrls.h"\
+	".\Controls\MeasureCtrls.h"\
+	".\Digit.h"\
+	".\DigitMode\DigitInfo.h"\
+	".\DigitMode\DotInfo.h"\
+	".\DigitMode\SectionInfo.h"\
+	".\DigitMode\ZapLineInfo.h"\
+	".\MainFrame\CommentsFileDlg.h"\
+	".\MainFrame\MainFrm.h"\
+	".\StdAfx.h"\
+	".\Utils\mutils.h"\
+	
+
+.\Utils\Edit\BaseTextDoc.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\image\secdib.h"\
+	"..\..\mgtools\include\image\secimage.h"\
+	"..\..\mgtools\include\utils\basedatatype.h"\
+	"..\..\mgtools\include\utils\fixmem.h"\
+	"..\..\mgtools\include\utils\utils.h"\
+	"..\interfsolver\include\carrdef.h"\
+	"..\interfsolver\include\complex.h"\
+	"..\interfsolver\include\int_cons.h"\
+	"..\interfsolver\stdafx.h"\
+	"..\interfsolver\tools\calccontour.h"\
+	"..\interfsolver\tools\calclimits.h"\
+	"..\interfsolver\tools\ctiofile.h"\
+	"..\interfsolver\tools\ispupil.h"\
+	"..\interfsolver\tools\nunberinfo.h"\
+	"..\interfsolver\tools\readwritedata.h"\
+	"..\interfsolver\tools\sampldat.h"\
+	"..\interfsolver\tools\xybounds.h"\
+	"..\interfsolver\tools\xybrokenline.h"\
+	"..\interfsolver\tools\xyellipse.h"\
+	"..\interfsolver\tools\xypoint.h"\
+	"..\interfsolver\tools\xypolygon.h"\
+	"..\interfsolver\tools\xyrect.h"\
+	".\appdef.h"\
+	".\Controls\BoundCtrls.h"\
+	".\Controls\controls.h"\
+	".\Controls\ImageCtrls.h"\
+	".\Controls\MeasureCtrls.h"\
+	".\Digit.h"\
+	".\DigitMode\DigitInfo.h"\
+	".\DigitMode\DotInfo.h"\
+	".\DigitMode\SectionInfo.h"\
+	".\DigitMode\ZapLineInfo.h"\
+	".\MainFrame\CommentsFileDlg.h"\
+	".\MainFrame\MainFrm.h"\
+	".\StdAfx.h"\
+	".\Utils\Edit\BaseTextDoc.h"\
+	".\Utils\Edit\BaseTextView.h"\
+	".\Utils\mutils.h"\
+	
+
+.\Utils\Edit\BaseTextFrm.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\image\secdib.h"\
+	"..\..\mgtools\include\image\secimage.h"\
+	"..\..\mgtools\include\utils\basedatatype.h"\
+	"..\..\mgtools\include\utils\fixmem.h"\
+	"..\..\mgtools\include\utils\utils.h"\
+	"..\interfsolver\include\carrdef.h"\
+	"..\interfsolver\include\complex.h"\
+	"..\interfsolver\include\int_cons.h"\
+	"..\interfsolver\stdafx.h"\
+	"..\interfsolver\tools\calccontour.h"\
+	"..\interfsolver\tools\calclimits.h"\
+	"..\interfsolver\tools\ctiofile.h"\
+	"..\interfsolver\tools\ispupil.h"\
+	"..\interfsolver\tools\nunberinfo.h"\
+	"..\interfsolver\tools\readwritedata.h"\
+	"..\interfsolver\tools\sampldat.h"\
+	"..\interfsolver\tools\xybounds.h"\
+	"..\interfsolver\tools\xybrokenline.h"\
+	"..\interfsolver\tools\xyellipse.h"\
+	"..\interfsolver\tools\xypoint.h"\
+	"..\interfsolver\tools\xypolygon.h"\
+	"..\interfsolver\tools\xyrect.h"\
+	".\appdef.h"\
+	".\Controls\BoundCtrls.h"\
+	".\Controls\controls.h"\
+	".\Controls\ImageCtrls.h"\
+	".\Controls\MeasureCtrls.h"\
+	".\Digit.h"\
+	".\DigitMode\DigitInfo.h"\
+	".\DigitMode\DotInfo.h"\
+	".\DigitMode\SectionInfo.h"\
+	".\DigitMode\ZapLineInfo.h"\
+	".\MainFrame\CommentsFileDlg.h"\
+	".\MainFrame\MainFrm.h"\
+	".\StdAfx.h"\
+	".\Utils\Edit\BaseTextDoc.h"\
+	".\Utils\Edit\BaseTextFrm.h"\
+	".\Utils\Edit\BaseTextView.h"\
+	".\Utils\mutils.h"\
+	
+
+.\Utils\Edit\BaseTextView.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	".\StdAfx.h"\
+	".\Utils\Edit\BaseTextDoc.h"\
+	".\Utils\Edit\BaseTextView.h"\
+	
+
+.\Utils\Edit\TextChildFrm.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\image\secdib.h"\
+	"..\..\mgtools\include\image\secimage.h"\
+	"..\..\mgtools\include\utils\basedatatype.h"\
+	"..\..\mgtools\include\utils\fixmem.h"\
+	"..\..\mgtools\include\utils\utils.h"\
+	"..\..\mgtools\stdafx.h"\
+	"..\interfsolver\include\carrdef.h"\
+	"..\interfsolver\include\complex.h"\
+	"..\interfsolver\include\int_cons.h"\
+	"..\interfsolver\stdafx.h"\
+	"..\interfsolver\tools\calccontour.h"\
+	"..\interfsolver\tools\calclimits.h"\
+	"..\interfsolver\tools\ctiofile.h"\
+	"..\interfsolver\tools\ispupil.h"\
+	"..\interfsolver\tools\nunberinfo.h"\
+	"..\interfsolver\tools\readwritedata.h"\
+	"..\interfsolver\tools\sampldat.h"\
+	"..\interfsolver\tools\xybounds.h"\
+	"..\interfsolver\tools\xybrokenline.h"\
+	"..\interfsolver\tools\xyellipse.h"\
+	"..\interfsolver\tools\xypoint.h"\
+	"..\interfsolver\tools\xypolygon.h"\
+	"..\interfsolver\tools\xyrect.h"\
+	".\appdef.h"\
+	".\Controls\BoundCtrls.h"\
+	".\Controls\controls.h"\
+	".\Controls\ImageCtrls.h"\
+	".\Controls\MeasureCtrls.h"\
+	".\Digit.h"\
+	".\DigitMode\DigitInfo.h"\
+	".\DigitMode\DotInfo.h"\
+	".\DigitMode\SectionInfo.h"\
+	".\DigitMode\ZapLineInfo.h"\
+	".\MainFrame\CommentsFileDlg.h"\
+	".\MainFrame\MainFrm.h"\
+	".\StdAfx.h"\
+	".\Utils\Edit\TextChildFrm.h"\
+	".\Utils\mutils.h"\
+	
+
+.\Utils\Graph\3DGraphDoc.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\graph\2dgraph.h"\
+	"..\..\mgtools\include\graph\3dgraph.h"\
+	"..\..\mgtools\include\graph\datatype.h"\
+	"..\..\mgtools\include\graph\glut.h"\
+	"..\..\mgtools\include\image\secdib.h"\
+	"..\..\mgtools\include\image\secimage.h"\
+	"..\..\mgtools\include\utils\basedatatype.h"\
+	"..\..\mgtools\include\utils\dibapi.h"\
+	"..\..\mgtools\stdafx.h"\
+	"..\interfsolver\include\carrdef.h"\
+	"..\interfsolver\include\complex.h"\
+	"..\interfsolver\include\int_cons.h"\
+	"..\interfsolver\numbering\calcaprimagematr.h"\
+	"..\interfsolver\stdafx.h"\
+	"..\interfsolver\tools\calccontour.h"\
+	"..\interfsolver\tools\calclimits.h"\
+	"..\interfsolver\tools\ctiofile.h"\
+	"..\interfsolver\tools\ispupil.h"\
+	"..\interfsolver\tools\matrix.h"\
+	"..\interfsolver\tools\nunberinfo.h"\
+	"..\interfsolver\tools\polapproximation.h"\
+	"..\interfsolver\tools\readwritedata.h"\
+	"..\interfsolver\tools\sampldat.h"\
+	"..\interfsolver\tools\vector.h"\
+	"..\interfsolver\tools\xybounds.h"\
+	"..\interfsolver\tools\xybrokenline.h"\
+	"..\interfsolver\tools\xyellipse.h"\
+	"..\interfsolver\tools\xypoint.h"\
+	"..\interfsolver\tools\xypolygon.h"\
+	"..\interfsolver\tools\xypolynom.h"\
+	"..\interfsolver\tools\xyrect.h"\
+	".\appdef.h"\
+	".\Controls\BoundCtrls.h"\
+	".\Controls\controls.h"\
+	".\Controls\ImageCtrls.h"\
+	".\Controls\MeasureCtrls.h"\
+	".\Digit.h"\
+	".\DigitMode\DigitInfo.h"\
+	".\DigitMode\DotInfo.h"\
+	".\DigitMode\SectionInfo.h"\
+	".\DigitMode\ZapLineInfo.h"\
+	".\ImageTempl\BaseImageDoc.h"\
+	".\ImageTempl\BaseImageView.h"\
+	".\ImageTempl\ImageDoc.h"\
+	".\MainFrame\CommentsFileDlg.h"\
+	".\MainFrame\MainFrm.h"\
+	".\StdAfx.h"\
+	".\Utils\Graph\3DGraphDoc.h"\
+	".\Utils\mutils.h"\
+	".\utils\seczmvw.h"\
+	".\Utils\Tracker.h"\
+	
+
+.\Utils\Graph\GraphChildFrm.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\image\secdib.h"\
+	"..\..\mgtools\include\image\secimage.h"\
+	"..\..\mgtools\include\utils\basedatatype.h"\
+	"..\..\mgtools\include\utils\fixmem.h"\
+	"..\..\mgtools\include\utils\utils.h"\
+	"..\interfsolver\include\carrdef.h"\
+	"..\interfsolver\include\complex.h"\
+	"..\interfsolver\include\int_cons.h"\
+	"..\interfsolver\stdafx.h"\
+	"..\interfsolver\tools\calccontour.h"\
+	"..\interfsolver\tools\calclimits.h"\
+	"..\interfsolver\tools\ctiofile.h"\
+	"..\interfsolver\tools\ispupil.h"\
+	"..\interfsolver\tools\nunberinfo.h"\
+	"..\interfsolver\tools\readwritedata.h"\
+	"..\interfsolver\tools\sampldat.h"\
+	"..\interfsolver\tools\xybounds.h"\
+	"..\interfsolver\tools\xybrokenline.h"\
+	"..\interfsolver\tools\xyellipse.h"\
+	"..\interfsolver\tools\xypoint.h"\
+	"..\interfsolver\tools\xypolygon.h"\
+	"..\interfsolver\tools\xyrect.h"\
+	".\appdef.h"\
+	".\Controls\BoundCtrls.h"\
+	".\Controls\controls.h"\
+	".\Controls\ImageCtrls.h"\
+	".\Controls\MeasureCtrls.h"\
+	".\Digit.h"\
+	".\DigitMode\DigitInfo.h"\
+	".\DigitMode\DotInfo.h"\
+	".\DigitMode\SectionInfo.h"\
+	".\DigitMode\ZapLineInfo.h"\
+	".\MainFrame\CommentsFileDlg.h"\
+	".\MainFrame\MainFrm.h"\
+	".\StdAfx.h"\
+	".\Utils\Graph\GraphChildFrm.h"\
+	".\Utils\mutils.h"\
+	
+
+.\Utils\Graph\GraphDoc.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\stdafx.h"\
+	".\Utils\Graph\GraphDoc.h"\
+	
+
+.\Utils\Cmdlg.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\utils\fixmem.h"\
+	"..\..\mgtools\include\utils\utils.h"\
+	".\StdAfx.h"\
+	".\Utils\Cmdlg.h"\
+	
+
+.\Utils\contour.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	".\StdAfx.h"\
+	".\utils\contour.h"\
+	
+
+.\Controls\MeasureCtrls.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\image\secdib.h"\
+	"..\..\mgtools\include\image\secimage.h"\
+	"..\..\mgtools\include\utils\basedatatype.h"\
+	"..\interfsolver\include\carrdef.h"\
+	"..\interfsolver\include\complex.h"\
+	"..\interfsolver\include\int_cons.h"\
+	"..\interfsolver\stdafx.h"\
+	"..\interfsolver\tools\calccontour.h"\
+	"..\interfsolver\tools\calclimits.h"\
+	"..\interfsolver\tools\ctiofile.h"\
+	"..\interfsolver\tools\ispupil.h"\
+	"..\interfsolver\tools\nunberinfo.h"\
+	"..\interfsolver\tools\readwritedata.h"\
+	"..\interfsolver\tools\sampldat.h"\
+	"..\interfsolver\tools\xybounds.h"\
+	"..\interfsolver\tools\xybrokenline.h"\
+	"..\interfsolver\tools\xyellipse.h"\
+	"..\interfsolver\tools\xypoint.h"\
+	"..\interfsolver\tools\xypolygon.h"\
+	"..\interfsolver\tools\xyrect.h"\
+	".\appdef.h"\
+	".\Controls\BoundCtrls.h"\
+	".\Controls\controls.h"\
+	".\Controls\ImageCtrls.h"\
+	".\Controls\MeasureCtrls.h"\
+	".\Digit.h"\
+	".\DigitMode\DigitInfo.h"\
+	".\DigitMode\DotInfo.h"\
+	".\DigitMode\SectionInfo.h"\
+	".\DigitMode\ZapLineInfo.h"\
+	".\MainFrame\CommentsFileDlg.h"\
+	".\MainFrame\MainFrm.h"\
+	".\StdAfx.h"\
+	".\Utils\mutils.h"\
+	
+
+.\Utils\middle.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\utils\basedatatype.h"\
+	"..\..\mgtools\include\utils\fixmem.h"\
+	"..\..\mgtools\include\utils\utils.h"\
+	".\StdAfx.h"\
+	".\Utils\middle.h"\
+	
+
+.\Utils\mutils.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\image\secdib.h"\
+	"..\..\mgtools\include\image\secimage.h"\
+	"..\..\mgtools\include\utils\basedatatype.h"\
+	"..\..\mgtools\include\utils\fixmem.h"\
+	"..\..\mgtools\include\utils\utils.h"\
+	"..\interfsolver\include\carrdef.h"\
+	"..\interfsolver\include\complex.h"\
+	"..\interfsolver\include\int_cons.h"\
+	"..\interfsolver\numbering\calcaprimagematr.h"\
+	"..\interfsolver\stdafx.h"\
+	"..\interfsolver\tools\calccontour.h"\
+	"..\interfsolver\tools\calclimits.h"\
+	"..\interfsolver\tools\ctiofile.h"\
+	"..\interfsolver\tools\ispupil.h"\
+	"..\interfsolver\tools\matrix.h"\
+	"..\interfsolver\tools\nunberinfo.h"\
+	"..\interfsolver\tools\polapproximation.h"\
+	"..\interfsolver\tools\readwritedata.h"\
+	"..\interfsolver\tools\sampldat.h"\
+	"..\interfsolver\tools\vector.h"\
+	"..\interfsolver\tools\xybounds.h"\
+	"..\interfsolver\tools\xybrokenline.h"\
+	"..\interfsolver\tools\xyellipse.h"\
+	"..\interfsolver\tools\xypoint.h"\
+	"..\interfsolver\tools\xypolygon.h"\
+	"..\interfsolver\tools\xypolynom.h"\
+	"..\interfsolver\tools\xyrect.h"\
+	".\appdef.h"\
+	".\Controls\BoundCtrls.h"\
+	".\Controls\controls.h"\
+	".\Controls\ImageCtrls.h"\
+	".\Controls\MeasureCtrls.h"\
+	".\Digit.h"\
+	".\DigitMode\DigitInfo.h"\
+	".\DigitMode\DotInfo.h"\
+	".\DigitMode\SectionInfo.h"\
+	".\DigitMode\ZapLineInfo.h"\
+	".\ImageTempl\BaseImageDoc.h"\
+	".\ImageTempl\BaseImageView.h"\
+	".\ImageTempl\ImageDoc.h"\
+	".\ImageTempl\ImageView.h"\
+	".\MainFrame\CommentsFileDlg.h"\
+	".\MainFrame\MainFrm.h"\
+	".\StdAfx.h"\
+	".\utils\contour.h"\
+	".\Utils\Edit\BaseTextDoc.h"\
+	".\Utils\mutils.h"\
+	".\utils\seczmvw.h"\
+	".\Utils\Tracker.h"\
+	
+
+.\Utils\SpecFileDlg.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\graph\graphtools.h"\
+	"..\..\mgtools\include\image\jchuff.h"\
+	"..\..\mgtools\include\image\jconfig.h"\
+	"..\..\mgtools\include\image\jdct.h"\
+	"..\..\mgtools\include\image\jdhuff.h"\
+	"..\..\mgtools\include\image\jerror.h"\
+	"..\..\mgtools\include\image\jinclude.h"\
+	"..\..\mgtools\include\image\jmemsys.h"\
+	"..\..\mgtools\include\image\jmorecfg.h"\
+	"..\..\mgtools\include\image\jpegint.h"\
+	"..\..\mgtools\include\image\jpeglib.h"\
+	"..\..\mgtools\include\image\secdib.h"\
+	"..\..\mgtools\include\image\secgif.h"\
+	"..\..\mgtools\include\image\secimage.h"\
+	"..\..\mgtools\include\image\secjpeg.h"\
+	"..\..\mgtools\include\image\secpcx.h"\
+	"..\..\mgtools\include\image\sectarga.h"\
+	"..\..\mgtools\include\image\sectiff.h"\
+	"..\..\mgtools\include\image\t4.h"\
+	"..\..\mgtools\include\image\tiff.h"\
+	"..\..\mgtools\include\image\tiffcomp.h"\
+	"..\..\mgtools\include\image\tiffconf.h"\
+	"..\..\mgtools\include\image\tiffio.h"\
+	"..\..\mgtools\include\image\tiffiop.h"\
+	"..\..\mgtools\include\utils\fixmem.h"\
+	"..\..\mgtools\include\utils\utils.h"\
+	"..\..\mgtools\stdafx.h"\
+	".\StdAfx.h"\
+	".\Utils\SpecFileDlg.h"\
+	
+
+.\Utils\StateListBox.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	".\StdAfx.h"\
+	".\Utils\StateListBox.h"\
+	
+
+.\Utils\Tracker.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\image\secdib.h"\
+	"..\..\mgtools\include\image\secimage.h"\
+	"..\..\mgtools\include\utils\basedatatype.h"\
+	"..\interfsolver\include\carrdef.h"\
+	"..\interfsolver\include\complex.h"\
+	"..\interfsolver\include\int_cons.h"\
+	"..\interfsolver\stdafx.h"\
+	"..\interfsolver\tools\calccontour.h"\
+	"..\interfsolver\tools\calclimits.h"\
+	"..\interfsolver\tools\ctiofile.h"\
+	"..\interfsolver\tools\ispupil.h"\
+	"..\interfsolver\tools\nunberinfo.h"\
+	"..\interfsolver\tools\readwritedata.h"\
+	"..\interfsolver\tools\sampldat.h"\
+	"..\interfsolver\tools\xybounds.h"\
+	"..\interfsolver\tools\xybrokenline.h"\
+	"..\interfsolver\tools\xyellipse.h"\
+	"..\interfsolver\tools\xypoint.h"\
+	"..\interfsolver\tools\xypolygon.h"\
+	"..\interfsolver\tools\xyrect.h"\
+	".\appdef.h"\
+	".\Controls\BoundCtrls.h"\
+	".\Controls\controls.h"\
+	".\Controls\ImageCtrls.h"\
+	".\Controls\MeasureCtrls.h"\
+	".\Digit.h"\
+	".\DigitMode\DigitInfo.h"\
+	".\DigitMode\DotInfo.h"\
+	".\DigitMode\SectionInfo.h"\
+	".\DigitMode\ZapLineInfo.h"\
+	".\MainFrame\CommentsFileDlg.h"\
+	".\MainFrame\MainFrm.h"\
+	".\StdAfx.h"\
+	".\Utils\mutils.h"\
+	".\Utils\Tracker.h"\
+	
+
+.\Utils\ZOOMVIEW.CPP : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	".\StdAfx.h"\
+	".\utils\seczmvw.h"\
+	
+
+.\ImageTempl\BaseImageDoc.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\image\secdib.h"\
+	"..\..\mgtools\include\image\secimage.h"\
+	"..\..\mgtools\include\utils\basedatatype.h"\
+	"..\..\mgtools\include\utils\fixmem.h"\
+	"..\..\mgtools\include\utils\utils.h"\
+	"..\interfsolver\include\carrdef.h"\
+	"..\interfsolver\include\complex.h"\
+	"..\interfsolver\include\int_cons.h"\
+	"..\interfsolver\stdafx.h"\
+	"..\interfsolver\tools\calccontour.h"\
+	"..\interfsolver\tools\calclimits.h"\
+	"..\interfsolver\tools\ctiofile.h"\
+	"..\interfsolver\tools\ispupil.h"\
+	"..\interfsolver\tools\nunberinfo.h"\
+	"..\interfsolver\tools\readwritedata.h"\
+	"..\interfsolver\tools\sampldat.h"\
+	"..\interfsolver\tools\xybounds.h"\
+	"..\interfsolver\tools\xybrokenline.h"\
+	"..\interfsolver\tools\xyellipse.h"\
+	"..\interfsolver\tools\xypoint.h"\
+	"..\interfsolver\tools\xypolygon.h"\
+	"..\interfsolver\tools\xyrect.h"\
+	".\appdef.h"\
+	".\Controls\BoundCtrls.h"\
+	".\Controls\controls.h"\
+	".\Controls\ImageCtrls.h"\
+	".\Controls\MeasureCtrls.h"\
+	".\Digit.h"\
+	".\DigitMode\DigitInfo.h"\
+	".\DigitMode\DotInfo.h"\
+	".\DigitMode\SectionInfo.h"\
+	".\DigitMode\ZapLineInfo.h"\
+	".\ImageTempl\BaseImageDoc.h"\
+	".\ImageTempl\BaseImageView.h"\
+	".\ImageTempl\ImageChildFrm.h"\
+	".\MainFrame\CommentsFileDlg.h"\
+	".\MainFrame\MainFrm.h"\
+	".\StdAfx.h"\
+	".\Utils\mutils.h"\
+	".\utils\seczmvw.h"\
+	".\Utils\Tracker.h"\
+	
+
+.\ImageTempl\BaseImageView.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\graph\graphtools.h"\
+	"..\..\mgtools\include\image\secdib.h"\
+	"..\..\mgtools\include\image\secimage.h"\
+	"..\..\mgtools\include\utils\basedatatype.h"\
+	"..\..\mgtools\include\utils\dibapi.h"\
+	"..\..\mgtools\include\utils\fixmem.h"\
+	"..\..\mgtools\include\utils\utils.h"\
+	"..\..\mgtools\stdafx.h"\
+	"..\interfsolver\include\carrdef.h"\
+	"..\interfsolver\include\complex.h"\
+	"..\interfsolver\include\int_cons.h"\
+	"..\interfsolver\stdafx.h"\
+	"..\interfsolver\tools\calccontour.h"\
+	"..\interfsolver\tools\calclimits.h"\
+	"..\interfsolver\tools\ctiofile.h"\
+	"..\interfsolver\tools\ispupil.h"\
+	"..\interfsolver\tools\nunberinfo.h"\
+	"..\interfsolver\tools\readwritedata.h"\
+	"..\interfsolver\tools\sampldat.h"\
+	"..\interfsolver\tools\xybounds.h"\
+	"..\interfsolver\tools\xybrokenline.h"\
+	"..\interfsolver\tools\xyellipse.h"\
+	"..\interfsolver\tools\xypoint.h"\
+	"..\interfsolver\tools\xypolygon.h"\
+	"..\interfsolver\tools\xyrect.h"\
+	".\appdef.h"\
+	".\Controls\BoundCtrls.h"\
+	".\Controls\controls.h"\
+	".\Controls\ImageCtrls.h"\
+	".\Controls\MeasureCtrls.h"\
+	".\Digit.h"\
+	".\DigitMode\DigitInfo.h"\
+	".\DigitMode\DotInfo.h"\
+	".\DigitMode\SectionInfo.h"\
+	".\DigitMode\ZapLineInfo.h"\
+	".\ImageTempl\BaseImageDoc.h"\
+	".\ImageTempl\BaseImageView.h"\
+	".\MainFrame\CommentsFileDlg.h"\
+	".\MainFrame\MainFrm.h"\
+	".\StdAfx.h"\
+	".\Utils\mutils.h"\
+	".\utils\seczmvw.h"\
+	".\Utils\Tracker.h"\
+	
+
+.\ImageTempl\ImageChildFrm.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\image\secdib.h"\
+	"..\..\mgtools\include\image\secimage.h"\
+	"..\..\mgtools\include\utils\basedatatype.h"\
+	"..\..\mgtools\include\utils\fixmem.h"\
+	"..\..\mgtools\include\utils\utils.h"\
+	"..\interfsolver\include\carrdef.h"\
+	"..\interfsolver\include\complex.h"\
+	"..\interfsolver\include\int_cons.h"\
+	"..\interfsolver\numbering\calcaprimagematr.h"\
+	"..\interfsolver\stdafx.h"\
+	"..\interfsolver\tools\calccontour.h"\
+	"..\interfsolver\tools\calclimits.h"\
+	"..\interfsolver\tools\ctiofile.h"\
+	"..\interfsolver\tools\ispupil.h"\
+	"..\interfsolver\tools\matrix.h"\
+	"..\interfsolver\tools\nunberinfo.h"\
+	"..\interfsolver\tools\polapproximation.h"\
+	"..\interfsolver\tools\readwritedata.h"\
+	"..\interfsolver\tools\sampldat.h"\
+	"..\interfsolver\tools\vector.h"\
+	"..\interfsolver\tools\xybounds.h"\
+	"..\interfsolver\tools\xybrokenline.h"\
+	"..\interfsolver\tools\xyellipse.h"\
+	"..\interfsolver\tools\xypoint.h"\
+	"..\interfsolver\tools\xypolygon.h"\
+	"..\interfsolver\tools\xypolynom.h"\
+	"..\interfsolver\tools\xyrect.h"\
+	".\appdef.h"\
+	".\Controls\BoundCtrls.h"\
+	".\Controls\controls.h"\
+	".\Controls\ImageCtrls.h"\
+	".\Controls\MeasureCtrls.h"\
+	".\Digit.h"\
+	".\DigitMode\DigitInfo.h"\
+	".\DigitMode\DotInfo.h"\
+	".\DigitMode\SectionInfo.h"\
+	".\DigitMode\ZapLineInfo.h"\
+	".\ImageTempl\BaseImageDoc.h"\
+	".\ImageTempl\BaseImageView.h"\
+	".\ImageTempl\ImageChildFrm.h"\
+	".\ImageTempl\ImageDoc.h"\
+	".\ImageTempl\ImageView.h"\
+	".\MainFrame\CommentsFileDlg.h"\
+	".\MainFrame\MainFrm.h"\
+	".\StdAfx.h"\
+	".\utils\contour.h"\
+	".\Utils\mutils.h"\
+	".\utils\seczmvw.h"\
+	".\Utils\Tracker.h"\
+	
+
+.\ImageTempl\ImageDoc.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\graph\2dgraph.h"\
+	"..\..\mgtools\include\graph\datatype.h"\
+	"..\..\mgtools\include\image\secdib.h"\
+	"..\..\mgtools\include\image\secimage.h"\
+	"..\..\mgtools\include\utils\basedatatype.h"\
+	"..\..\mgtools\include\utils\dibapi.h"\
+	"..\..\mgtools\include\utils\fixmem.h"\
+	"..\..\mgtools\include\utils\utils.h"\
+	"..\..\mgtools\stdafx.h"\
+	"..\interfsolver\include\carrdef.h"\
+	"..\interfsolver\include\complex.h"\
+	"..\interfsolver\include\int_cons.h"\
+	"..\interfsolver\numbering\calcaprimagematr.h"\
+	"..\interfsolver\stdafx.h"\
+	"..\interfsolver\tools\calccontour.h"\
+	"..\interfsolver\tools\calclimits.h"\
+	"..\interfsolver\tools\ctiofile.h"\
+	"..\interfsolver\tools\ispupil.h"\
+	"..\interfsolver\tools\matrix.h"\
+	"..\interfsolver\tools\nunberinfo.h"\
+	"..\interfsolver\tools\polapproximation.h"\
+	"..\interfsolver\tools\readwritedata.h"\
+	"..\interfsolver\tools\sampldat.h"\
+	"..\interfsolver\tools\vector.h"\
+	"..\interfsolver\tools\xybounds.h"\
+	"..\interfsolver\tools\xybrokenline.h"\
+	"..\interfsolver\tools\xyellipse.h"\
+	"..\interfsolver\tools\xypoint.h"\
+	"..\interfsolver\tools\xypolygon.h"\
+	"..\interfsolver\tools\xypolynom.h"\
+	"..\interfsolver\tools\xyrect.h"\
+	".\appdef.h"\
+	".\Controls\BoundCtrls.h"\
+	".\Controls\controls.h"\
+	".\Controls\ImageCtrls.h"\
+	".\Controls\MeasureCtrls.h"\
+	".\Digit.h"\
+	".\DigitMode\DigitInfo.h"\
+	".\DigitMode\DotInfo.h"\
+	".\DigitMode\SectionInfo.h"\
+	".\DigitMode\ZapLineInfo.h"\
+	".\ImageFeatures\SectionFrame.h"\
+	".\ImageTempl\BaseImageDoc.h"\
+	".\ImageTempl\BaseImageView.h"\
+	".\ImageTempl\ImageDoc.h"\
+	".\ImageTempl\ImageView.h"\
+	".\MainFrame\CommentsFileDlg.h"\
+	".\MainFrame\MainFrm.h"\
+	".\Options\ApproxSetDlg.h"\
+	".\StdAfx.h"\
+	".\utils\contour.h"\
+	".\Utils\Edit\BaseTextDoc.h"\
+	".\Utils\mutils.h"\
+	".\utils\seczmvw.h"\
+	".\Utils\Tracker.h"\
+	
+
+.\ImageTempl\ImageView.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\graph\2dgraph.h"\
+	"..\..\mgtools\include\graph\datatype.h"\
+	"..\..\mgtools\include\image\secdib.h"\
+	"..\..\mgtools\include\image\secimage.h"\
+	"..\..\mgtools\include\utils\basedatatype.h"\
+	"..\..\mgtools\include\utils\dibapi.h"\
+	"..\..\mgtools\include\utils\fixmem.h"\
+	"..\..\mgtools\include\utils\utils.h"\
+	"..\..\mgtools\stdafx.h"\
+	"..\interfsolver\include\carrdef.h"\
+	"..\interfsolver\include\complex.h"\
+	"..\interfsolver\include\int_cons.h"\
+	"..\interfsolver\numbering\calcaprimagematr.h"\
+	"..\interfsolver\stdafx.h"\
+	"..\interfsolver\tools\calccontour.h"\
+	"..\interfsolver\tools\calclimits.h"\
+	"..\interfsolver\tools\ctiofile.h"\
+	"..\interfsolver\tools\ispupil.h"\
+	"..\interfsolver\tools\matrix.h"\
+	"..\interfsolver\tools\nunberinfo.h"\
+	"..\interfsolver\tools\polapproximation.h"\
+	"..\interfsolver\tools\readwritedata.h"\
+	"..\interfsolver\tools\sampldat.h"\
+	"..\interfsolver\tools\vector.h"\
+	"..\interfsolver\tools\xybounds.h"\
+	"..\interfsolver\tools\xybrokenline.h"\
+	"..\interfsolver\tools\xyellipse.h"\
+	"..\interfsolver\tools\xypoint.h"\
+	"..\interfsolver\tools\xypolygon.h"\
+	"..\interfsolver\tools\xypolynom.h"\
+	"..\interfsolver\tools\xyrect.h"\
+	".\appdef.h"\
+	".\Controls\BoundCtrls.h"\
+	".\Controls\controls.h"\
+	".\Controls\ImageCtrls.h"\
+	".\Controls\MeasureCtrls.h"\
+	".\Digit.h"\
+	".\DigitMode\DigitInfo.h"\
+	".\DigitMode\DotInfo.h"\
+	".\DigitMode\SectionInfo.h"\
+	".\DigitMode\ZapLineInfo.h"\
+	".\ImageFeatures\SectionFrame.h"\
+	".\ImageFeatures\ZoomDlg.h"\
+	".\ImageTempl\BaseImageDoc.h"\
+	".\ImageTempl\BaseImageView.h"\
+	".\ImageTempl\ImageDoc.h"\
+	".\ImageTempl\ImageView.h"\
+	".\MainFrame\CommentsFileDlg.h"\
+	".\MainFrame\MainFrm.h"\
+	".\StdAfx.h"\
+	".\Utils\Cmdlg.h"\
+	".\utils\contour.h"\
+	".\Utils\mutils.h"\
+	".\utils\seczmvw.h"\
+	".\Utils\Tracker.h"\
+	
+
+.\Options\ApproxSetDlg.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	".\appdef.h"\
+	".\Controls\controls.h"\
+	".\Digit.h"\
+	".\Options\ApproxSetDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\Options\ToolBarsDlg.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	".\Options\ToolBarsDlg.h"\
+	".\StdAfx.h"\
+	".\Utils\StateListBox.h"\
+	
+
+.\ImageFeatures\SectionFrame.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\graph\2dgraph.h"\
+	"..\..\mgtools\include\graph\datatype.h"\
+	"..\..\mgtools\include\utils\basedatatype.h"\
+	"..\..\mgtools\include\utils\dibapi.h"\
+	"..\..\mgtools\stdafx.h"\
+	".\ImageFeatures\SectionFrame.h"\
+	".\StdAfx.h"\
+	
+
+.\ImageFeatures\ZoomDlg.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\image\secdib.h"\
+	"..\..\mgtools\include\image\secimage.h"\
+	"..\..\mgtools\include\utils\basedatatype.h"\
+	"..\interfsolver\include\carrdef.h"\
+	"..\interfsolver\include\complex.h"\
+	"..\interfsolver\include\int_cons.h"\
+	"..\interfsolver\numbering\calcaprimagematr.h"\
+	"..\interfsolver\stdafx.h"\
+	"..\interfsolver\tools\calccontour.h"\
+	"..\interfsolver\tools\calclimits.h"\
+	"..\interfsolver\tools\ctiofile.h"\
+	"..\interfsolver\tools\ispupil.h"\
+	"..\interfsolver\tools\matrix.h"\
+	"..\interfsolver\tools\nunberinfo.h"\
+	"..\interfsolver\tools\polapproximation.h"\
+	"..\interfsolver\tools\readwritedata.h"\
+	"..\interfsolver\tools\sampldat.h"\
+	"..\interfsolver\tools\vector.h"\
+	"..\interfsolver\tools\xybounds.h"\
+	"..\interfsolver\tools\xybrokenline.h"\
+	"..\interfsolver\tools\xyellipse.h"\
+	"..\interfsolver\tools\xypoint.h"\
+	"..\interfsolver\tools\xypolygon.h"\
+	"..\interfsolver\tools\xypolynom.h"\
+	"..\interfsolver\tools\xyrect.h"\
+	".\appdef.h"\
+	".\Controls\BoundCtrls.h"\
+	".\Controls\controls.h"\
+	".\Controls\ImageCtrls.h"\
+	".\Controls\MeasureCtrls.h"\
+	".\Digit.h"\
+	".\DigitMode\DigitInfo.h"\
+	".\DigitMode\DotInfo.h"\
+	".\DigitMode\SectionInfo.h"\
+	".\DigitMode\ZapLineInfo.h"\
+	".\ImageFeatures\ZoomDlg.h"\
+	".\ImageTempl\BaseImageDoc.h"\
+	".\ImageTempl\BaseImageView.h"\
+	".\ImageTempl\ImageDoc.h"\
+	".\ImageTempl\ImageView.h"\
+	".\MainFrame\CommentsFileDlg.h"\
+	".\MainFrame\MainFrm.h"\
+	".\StdAfx.h"\
+	".\Utils\Cmdlg.h"\
+	".\utils\contour.h"\
+	".\Utils\mutils.h"\
+	".\utils\seczmvw.h"\
+	".\Utils\Tracker.h"\
+	
+
+.\DigitMode\DigitInfo.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\image\secdib.h"\
+	"..\..\mgtools\include\image\secimage.h"\
+	"..\..\mgtools\include\utils\basedatatype.h"\
+	"..\..\mgtools\include\utils\fixmem.h"\
+	"..\..\mgtools\include\utils\utils.h"\
+	"..\interfsolver\include\carrdef.h"\
+	"..\interfsolver\include\complex.h"\
+	"..\interfsolver\include\int_cons.h"\
+	"..\interfsolver\stdafx.h"\
+	"..\interfsolver\tools\calccontour.h"\
+	"..\interfsolver\tools\calclimits.h"\
+	"..\interfsolver\tools\ctiofile.h"\
+	"..\interfsolver\tools\ispupil.h"\
+	"..\interfsolver\tools\nunberinfo.h"\
+	"..\interfsolver\tools\readwritedata.h"\
+	"..\interfsolver\tools\sampldat.h"\
+	"..\interfsolver\tools\xybounds.h"\
+	"..\interfsolver\tools\xybrokenline.h"\
+	"..\interfsolver\tools\xyellipse.h"\
+	"..\interfsolver\tools\xypoint.h"\
+	"..\interfsolver\tools\xypolygon.h"\
+	"..\interfsolver\tools\xyrect.h"\
+	".\appdef.h"\
+	".\Controls\BoundCtrls.h"\
+	".\Controls\controls.h"\
+	".\Controls\ImageCtrls.h"\
+	".\Controls\MeasureCtrls.h"\
+	".\Digit.h"\
+	".\DigitMode\DigitInfo.h"\
+	".\DigitMode\DotInfo.h"\
+	".\DigitMode\SectionInfo.h"\
+	".\DigitMode\ZapLineInfo.h"\
+	".\MainFrame\CommentsFileDlg.h"\
+	".\MainFrame\MainFrm.h"\
+	".\StdAfx.h"\
+	".\Utils\middle.h"\
+	".\Utils\mutils.h"\
+	
+
+.\DigitMode\DotInfo.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\image\secdib.h"\
+	"..\..\mgtools\include\image\secimage.h"\
+	"..\..\mgtools\include\utils\basedatatype.h"\
+	"..\..\mgtools\include\utils\fixmem.h"\
+	"..\..\mgtools\include\utils\utils.h"\
+	"..\interfsolver\include\carrdef.h"\
+	"..\interfsolver\include\complex.h"\
+	"..\interfsolver\include\int_cons.h"\
+	"..\interfsolver\stdafx.h"\
+	"..\interfsolver\tools\calccontour.h"\
+	"..\interfsolver\tools\calclimits.h"\
+	"..\interfsolver\tools\ctiofile.h"\
+	"..\interfsolver\tools\ispupil.h"\
+	"..\interfsolver\tools\nunberinfo.h"\
+	"..\interfsolver\tools\readwritedata.h"\
+	"..\interfsolver\tools\sampldat.h"\
+	"..\interfsolver\tools\xybounds.h"\
+	"..\interfsolver\tools\xybrokenline.h"\
+	"..\interfsolver\tools\xyellipse.h"\
+	"..\interfsolver\tools\xypoint.h"\
+	"..\interfsolver\tools\xypolygon.h"\
+	"..\interfsolver\tools\xyrect.h"\
+	".\appdef.h"\
+	".\Controls\BoundCtrls.h"\
+	".\Controls\controls.h"\
+	".\Controls\ImageCtrls.h"\
+	".\Controls\MeasureCtrls.h"\
+	".\Digit.h"\
+	".\DigitMode\DigitInfo.h"\
+	".\DigitMode\DotInfo.h"\
+	".\DigitMode\SectionInfo.h"\
+	".\DigitMode\ZapLineInfo.h"\
+	".\MainFrame\CommentsFileDlg.h"\
+	".\MainFrame\MainFrm.h"\
+	".\StdAfx.h"\
+	".\Utils\middle.h"\
+	".\Utils\mutils.h"\
+	
+
+.\DigitMode\SectionInfo.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\image\secdib.h"\
+	"..\..\mgtools\include\image\secimage.h"\
+	"..\..\mgtools\include\utils\basedatatype.h"\
+	"..\..\mgtools\include\utils\fixmem.h"\
+	"..\..\mgtools\include\utils\utils.h"\
+	"..\interfsolver\include\carrdef.h"\
+	"..\interfsolver\include\complex.h"\
+	"..\interfsolver\include\int_cons.h"\
+	"..\interfsolver\stdafx.h"\
+	"..\interfsolver\tools\calccontour.h"\
+	"..\interfsolver\tools\calclimits.h"\
+	"..\interfsolver\tools\ctiofile.h"\
+	"..\interfsolver\tools\ispupil.h"\
+	"..\interfsolver\tools\nunberinfo.h"\
+	"..\interfsolver\tools\readwritedata.h"\
+	"..\interfsolver\tools\sampldat.h"\
+	"..\interfsolver\tools\xybounds.h"\
+	"..\interfsolver\tools\xybrokenline.h"\
+	"..\interfsolver\tools\xyellipse.h"\
+	"..\interfsolver\tools\xypoint.h"\
+	"..\interfsolver\tools\xypolygon.h"\
+	"..\interfsolver\tools\xyrect.h"\
+	".\appdef.h"\
+	".\Controls\BoundCtrls.h"\
+	".\Controls\controls.h"\
+	".\Controls\ImageCtrls.h"\
+	".\Controls\MeasureCtrls.h"\
+	".\Digit.h"\
+	".\DigitMode\DigitInfo.h"\
+	".\DigitMode\DotInfo.h"\
+	".\DigitMode\SectionInfo.h"\
+	".\DigitMode\ZapLineInfo.h"\
+	".\MainFrame\CommentsFileDlg.h"\
+	".\MainFrame\MainFrm.h"\
+	".\StdAfx.h"\
+	".\Utils\middle.h"\
+	".\Utils\mutils.h"\
+	
+
+.\DigitMode\ZapLineInfo.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\image\secdib.h"\
+	"..\..\mgtools\include\image\secimage.h"\
+	"..\..\mgtools\include\utils\basedatatype.h"\
+	"..\..\mgtools\include\utils\fixmem.h"\
+	"..\..\mgtools\include\utils\utils.h"\
+	"..\interfsolver\include\carrdef.h"\
+	"..\interfsolver\include\complex.h"\
+	"..\interfsolver\include\int_cons.h"\
+	"..\interfsolver\stdafx.h"\
+	"..\interfsolver\tools\calccontour.h"\
+	"..\interfsolver\tools\calclimits.h"\
+	"..\interfsolver\tools\ctiofile.h"\
+	"..\interfsolver\tools\ispupil.h"\
+	"..\interfsolver\tools\nunberinfo.h"\
+	"..\interfsolver\tools\readwritedata.h"\
+	"..\interfsolver\tools\sampldat.h"\
+	"..\interfsolver\tools\xybounds.h"\
+	"..\interfsolver\tools\xybrokenline.h"\
+	"..\interfsolver\tools\xyellipse.h"\
+	"..\interfsolver\tools\xypoint.h"\
+	"..\interfsolver\tools\xypolygon.h"\
+	"..\interfsolver\tools\xyrect.h"\
+	".\appdef.h"\
+	".\Controls\BoundCtrls.h"\
+	".\Controls\controls.h"\
+	".\Controls\ImageCtrls.h"\
+	".\Controls\MeasureCtrls.h"\
+	".\Digit.h"\
+	".\DigitMode\DigitInfo.h"\
+	".\DigitMode\DotInfo.h"\
+	".\DigitMode\SectionInfo.h"\
+	".\DigitMode\ZapLineInfo.h"\
+	".\MainFrame\CommentsFileDlg.h"\
+	".\MainFrame\MainFrm.h"\
+	".\StdAfx.h"\
+	".\Utils\middle.h"\
+	".\Utils\mutils.h"\
+	
+
+.\Digit.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	"..\..\mgtools\include\graph\2dgraph.h"\
+	"..\..\mgtools\include\graph\3dgraph.h"\
+	"..\..\mgtools\include\graph\datatype.h"\
+	"..\..\mgtools\include\graph\glut.h"\
+	"..\..\mgtools\include\image\secdib.h"\
+	"..\..\mgtools\include\image\secimage.h"\
+	"..\..\mgtools\include\utils\basedatatype.h"\
+	"..\..\mgtools\include\utils\dibapi.h"\
+	"..\..\mgtools\include\utils\fixmem.h"\
+	"..\..\mgtools\include\utils\utils.h"\
+	"..\..\mgtools\mgtools.h"\
+	"..\..\mgtools\stdafx.h"\
+	"..\interfsolver\include\carrdef.h"\
+	"..\interfsolver\include\complex.h"\
+	"..\interfsolver\include\int_cons.h"\
+	"..\interfsolver\numbering\calcaprimagematr.h"\
+	"..\interfsolver\stdafx.h"\
+	"..\interfsolver\tools\calccontour.h"\
+	"..\interfsolver\tools\calclimits.h"\
+	"..\interfsolver\tools\ctiofile.h"\
+	"..\interfsolver\tools\ispupil.h"\
+	"..\interfsolver\tools\matrix.h"\
+	"..\interfsolver\tools\nunberinfo.h"\
+	"..\interfsolver\tools\polapproximation.h"\
+	"..\interfsolver\tools\readwritedata.h"\
+	"..\interfsolver\tools\sampldat.h"\
+	"..\interfsolver\tools\vector.h"\
+	"..\interfsolver\tools\xybounds.h"\
+	"..\interfsolver\tools\xybrokenline.h"\
+	"..\interfsolver\tools\xyellipse.h"\
+	"..\interfsolver\tools\xypoint.h"\
+	"..\interfsolver\tools\xypolygon.h"\
+	"..\interfsolver\tools\xypolynom.h"\
+	"..\interfsolver\tools\xyrect.h"\
+	".\appdef.h"\
+	".\Controls\BoundCtrls.h"\
+	".\Controls\controls.h"\
+	".\Controls\ImageCtrls.h"\
+	".\Controls\MeasureCtrls.h"\
+	".\Digit.h"\
+	".\DigitMode\DigitInfo.h"\
+	".\DigitMode\DotInfo.h"\
+	".\DigitMode\SectionInfo.h"\
+	".\DigitMode\ZapLineInfo.h"\
+	".\ImageTempl\BaseImageDoc.h"\
+	".\ImageTempl\BaseImageView.h"\
+	".\ImageTempl\ImageChildFrm.h"\
+	".\ImageTempl\ImageDoc.h"\
+	".\ImageTempl\ImageView.h"\
+	".\MainFrame\CommentsFileDlg.h"\
+	".\MainFrame\MainFrm.h"\
+	".\StdAfx.h"\
+	".\utils\contour.h"\
+	".\Utils\Edit\BaseTextDoc.h"\
+	".\Utils\Edit\BaseTextView.h"\
+	".\Utils\Edit\TextChildFrm.h"\
+	".\Utils\Graph\3DGraphDoc.h"\
+	".\Utils\Graph\GraphChildFrm.h"\
+	".\Utils\Graph\GraphDoc.h"\
+	".\Utils\mutils.h"\
+	".\utils\seczmvw.h"\
+	".\Utils\SpecFileDlg.h"\
+	".\Utils\Tracker.h"\
+	
+
+!IF  "$(CFG)" == "Digit - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "Digit - Win32 Debug"
+
+!ENDIF 
+
+.\Digit.rc : \
+	".\res\Digit.ico"\
+	".\res\Digit.rc2"\
+	".\res\DigitDoc.ico"\
+	".\res\Toolbar.bmp"\
+	
+
+.\StdAfx.cpp : \
+	"..\..\..\..\..\..\..\visual studio 6\vc98\include\basetsd.h"\
+	".\StdAfx.h"\
+	
+
+!IF  "$(CFG)" == "Digit - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "Digit - Win32 Debug"
+
+!ENDIF 
+
+!IF  "$(CFG)" == "Digit - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "Digit - Win32 Debug"
+
+!ENDIF 
+

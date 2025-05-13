@@ -1,0 +1,48 @@
+; InterfSolver.def : Declares the module parameters for the DLL.
+
+LIBRARY      "InterfSolver"
+;DESCRIPTION  'InterfSolver Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+?CalcCircleLimits@@YA_NABUXYBounds@@HAAVXYEllipse@@AAU1@@Z
+?WriteWinZAPData@@YAXABVCString@@AAUNUMBERING_INTERFEROGRAM_INFO@@@Z
+??0NUMBERING_INTERFEROGRAM_INFO@@QAE@XZ
+??1NUMBERING_INTERFEROGRAM_INFO@@QAE@XZ
+??1XYBrokenLine@@QAE@XZ
+??1XYEllipse@@QAE@XZ
+??1XYRect@@QAE@XZ
+?CalcRectangleLimits@@YA_NABVXYBrokenLine@@HAAVXYRect@@AAUXYBounds@@@Z
+?CalcEllipseLimits@@YA_NABVXYBrokenLine@@HAAVXYEllipse@@AAUXYBounds@@@Z
+?CalcCircleLimits@@YA_NABVXYBrokenLine@@HAAVXYEllipse@@AAUXYBounds@@@Z
+??0XYRect@@QAE@NNNNNHH@Z
+??0XYEllipse@@QAE@NNNNNHH@Z
+??0XYBrokenLine@@QAE@XZ
+??0XYEllipse@@QAE@ABV0@@Z
+??0XYRect@@QAE@ABV0@@Z
+??4XYEllipse@@QAEAAV0@ABV0@@Z
+??4XYRect@@QAEAAV0@ABV0@@Z
+??0XYBrokenLine@@QAE@ABV0@@Z
+??4XYBrokenLine@@QAEAAV0@ABV0@@Z
+?CalcBounds@@YA_NABV?$CArray@VXYEllipse@@V1@@@ABV?$CArray@VXYRect@@V1@@@ABV?$CArray@VXYPolygon@@V1@@@AAUXYBounds@@@Z
+?GetArrY@XYBrokenLine@@QAEXAAV?$CArray@NN@@@Z
+?GetArrX@XYBrokenLine@@QAEXAAV?$CArray@NN@@@Z
+?GetBounds@XYPolygon@@QAEXAAUXYBounds@@@Z
+?CalcContour@@YAXABV?$CArray@VXYEllipse@@V1@@@ABV?$CArray@VXYRect@@V1@@@ABV?$CArray@VXYPolygon@@V1@@@AAV3@H@Z
+?isPupil@@YA_NABUXYPoint@@ABV?$CArray@VXYPolygon@@V1@@@@Z
+??1XYPolygon@@QAE@XZ
+??0XYPolygon@@QAE@ABV0@@Z
+?CalcPolygonLimits@@YA_NABVXYBrokenLine@@HAAVXYPolygon@@@Z
+??0XYPolygon@@QAE@XZ
+??4XYPolygon@@QAEAAV0@ABV0@@Z
+?ReadZAPData@@YAHABVCString@@AAUNUMBERING_INTERFEROGRAM_INFO@@@Z
+?ReadFRNData@@YAHABVCString@@AAUNUMBERING_INTERFEROGRAM_INFO@@@Z
+?WriteFRNData@@YAXABVCString@@AAUNUMBERING_INTERFEROGRAM_INFO@@@Z
+??0SAMPLE_DATA@@QAE@XZ
+?Clear@SAMPLE_DATA@@QAEXXZ
+?isPupil@@YA_NABUXYPoint@@ABV?$CArray@VXYEllipse@@V1@@@ABV?$CArray@VXYRect@@V1@@@ABV?$CArray@VXYPolygon@@V1@@@@Z
+??1Matrix@@QAE@XZ
+?CalcPolAprImageMatr@@YAHAAUNUMBERING_INTERFEROGRAM_INFO@@HNAAVMatrix@@@Z
+??0Matrix@@QAE@XZ
+?GetFringeNumbers@NUMBERING_INTERFEROGRAM_INFO@@QAEXAAV?$CArray@NN@@@Z
+?WriteDosZAPData@@YAXABVCString@@AAUNUMBERING_INTERFEROGRAM_INFO@@@Z
