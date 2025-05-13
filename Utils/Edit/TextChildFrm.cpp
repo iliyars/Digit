@@ -4,7 +4,7 @@
 #include "..\..\stdafx.h"
 #include "TextChildFrm.h"
 #include "..\mutils.h"
-#include "D:\Numbering\MGTools\Include\Utils\Utils.h"
+#include "..\..\MGTools\Include\Utils\Utils.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW

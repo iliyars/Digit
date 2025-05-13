@@ -5,16 +5,16 @@
  НАЗНАЧЕНИЕ:
          Базовое представление архитектуры документ-представления      
 ************************************************************************************/
-
+//C:\Ilya\Programming\cpp\Numbering\ImageTempl\BaseImageView.cpp
 #include "..\stdafx.h"
 #include "..\AppDef.h"
 #include "BaseImageDoc.h"
 #include "BaseImageView.h"
 #include "..\Utils\mutils.h"
 
-#include "D:\Numbering\MGTools\Include\Graph\GraphTools.h"
-#include "D:\Numbering\MGTools\Include\Utils\Utils.h"
-#include "D:\Numbering\MGTools\Include\Utils\DibApi.h"
+#include "..\MGTools\Include\Graph\GraphTools.h"
+#include "..\MGTools\Include\Utils\Utils.h"
+#include "..\MGTools\Include\Utils\DibApi.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW

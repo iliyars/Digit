@@ -3,16 +3,16 @@
 
 #include "..\stdafx.h"
 #include "SpecFileDlg.h"
+//C:\Ilya\Programming\cpp\Numbering\Utils\SpecFileDlg.cpp
+#include "..\MGTools\Include\Graph\GraphTools.h"
+#include "..\MGTools\Include\Utils\Utils.h"
 
-#include "D:\Numbering\MGTools\Include\Graph\GraphTools.h"
-#include "D:\Numbering\MGTools\Include\Utils\Utils.h"
-
-#include "D:\Numbering\MGTools\Include\Image\SecDib.h"
-#include "D:\Numbering\MGTools\Include\Image\SecPcx.h"
-#include "D:\Numbering\MGTools\Include\Image\SecJpeg.h"
-#include "D:\Numbering\MGTools\Include\Image\SecGif.h"
-#include "D:\Numbering\MGTools\Include\Image\SecTarga.h"
-#include "D:\Numbering\MGTools\Include\Image\SecTiff.h"
+#include "..\MGTools\Include\Image\SecDib.h"
+#include "..\MGTools\Include\Image\SecPcx.h"
+#include "..\MGTools\Include\Image\SecJpeg.h"
+#include "..\MGTools\Include\Image\SecGif.h"
+#include "..\MGTools\Include\Image\SecTarga.h"
+#include "..\MGTools\Include\Image\SecTiff.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW

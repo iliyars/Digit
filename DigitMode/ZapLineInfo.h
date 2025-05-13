@@ -3,7 +3,8 @@
 
 #include "..\stdafx.h"
 #include "..\Appdef.h"
-#include "D:\Numbering\MGTools\Include\Utils\BaseDataType.h"
+//C:\Ilya\Programming\cpp\Numbering\DigitMode\ZapLineInfo.h
+#include "..\MGTools\Include\Utils\BaseDataType.h"
 
 class CZapLineInfo : public CObject
 {

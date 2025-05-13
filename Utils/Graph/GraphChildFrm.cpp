@@ -1,10 +1,10 @@
 // GraphChildFrm.cpp : implementation file
 //
-
+//C:\Ilya\Programming\cpp\Numbering\Utils\Graph\GraphChildFrm.cpp
 #include "..\..\StdAfx.h"
 #include "GraphChildFrm.h"
 #include "..\mutils.h"
-#include "D:\Numbering\MGTools\Include\Utils\Utils.h"
+#include "..\..\MGTools\Include\Utils\Utils.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW

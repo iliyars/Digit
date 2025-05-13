@@ -3,8 +3,9 @@
 
 #include "..\stdafx.h"
 #include "..\Appdef.h"
-#include "D:\Numbering\MGTools\Include\Utils\BaseDataType.h"
-#include "D:\Numbering\MGTools\Include\Image\SecDib.h"
+//C:\Ilya\Programming\cpp\Numbering\Controls\ImageCtrls.h
+#include "..\MGTools\Include\Utils\BaseDataType.h"
+#include "..\MGTools\Include\Image\SecDib.h"
 
 class CImageCtrls
 {

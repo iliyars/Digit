@@ -1,4 +1,4 @@
-#if !defined(AFX_IMAGEDOC_H__8056A041_1BE0_4DEB_A9DE_546A3848E6B4__INCLUDED_)
+﻿#if !defined(AFX_IMAGEDOC_H__8056A041_1BE0_4DEB_A9DE_546A3848E6B4__INCLUDED_)
 #define AFX_IMAGEDOC_H__8056A041_1BE0_4DEB_A9DE_546A3848E6B4__INCLUDED_
 
 #if _MSC_VER > 1000
@@ -6,11 +6,10 @@
 #endif // _MSC_VER > 1000
 // ImageDoc.h : header file
 //
+#include "..\ImageTempl\BaseImageDoc.h" 
+#include "..\ImageTempl\BaseImageView.h" 
+#include "..\InterfSolver\Numbering\CalcAprImageMatr.h" 
 
-#include "D:\Numbering\ImageTempl\BaseImageDoc.h"
-#include "D:\Numbering\ImageTempl\BaseImageView.h"
-
-#include "D:\Numbering\InterfSolver\Numbering\CalcAprImageMatr.h"
 
 class CSectionFrame;
 class CBaseImageDoc;

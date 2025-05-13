@@ -5,8 +5,8 @@
 #pragma once
 #endif // _MSC_VER > 1000
 // SectionFrame.h : header file
-//
-#include "D:\Numbering\MGTools\Include\Graph\2DGraph.h"
+//C:\Ilya\Programming\cpp\Numbering\ImageFeatures\SectionFrame.h
+#include "..\MGTools\Include\Graph\2DGraph.h"
 /////////////////////////////////////////////////////////////////////////////
 // CSectionFrame frame
 

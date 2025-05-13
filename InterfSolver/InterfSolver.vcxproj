@@ -47,8 +47,8 @@
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>D:\Numbering\Debug</OutDir>
-    <IntDir>D:\Numbering\Debug</IntDir>
+    <OutDir>..\Build\Debug\</OutDir>
+    <IntDir>..\Build\Debug\InferSolverTemp\</IntDir>
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -96,7 +96,7 @@
     <ClCompile>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <InlineFunctionExpansion>Default</InlineFunctionExpansion>
-      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
       <Optimization>Disabled</Optimization>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <WarningLevel>Level3</WarningLevel>
@@ -131,8 +131,8 @@
       <LinkDLL>true</LinkDLL>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
-      <OutputFile>.\..\Debug\InterfSolver.dll</OutputFile>
-      <ImportLibrary>D:\Numbering\Debug\InterfSolver.lib</ImportLibrary>
+	  <OutputFile>.\..\Debug\InterfSolver.dll</OutputFile>
+      <ImportLibrary>..\Build\Debug\InterfSolver.lib</ImportLibrary>
       <ModuleDefinitionFile>.\InterfSolver.def</ModuleDefinitionFile>
     </Link>
   </ItemDefinitionGroup>

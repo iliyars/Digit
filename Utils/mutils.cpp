@@ -10,7 +10,7 @@
 #include "..\ImageTempl\ImageView.h"
 #include "Edit\BaseTextDoc.h"
 #include "mutils.h"
-#include "D:\Numbering\MGTools\Include\Utils\Utils.h"
+#include "..\MGTools\Include\Utils\Utils.h"
 
 
 LPCTSTR GetIniFile()

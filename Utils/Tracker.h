@@ -2,7 +2,7 @@
 #define AFX_TRACKER_H__7A162971_1875_11D4_8A51_A0D170A2AAD8__INCLUDED_
 
 #include "..\stdafx.h"
-#include "D:\Numbering\MGTools\Include\Utils\BaseDataType.h"
+#include "..\MGTools\Include\Utils\BaseDataType.h"
 
 #define VM_NORMAL   0
 #define VM_SHIFTROT 1

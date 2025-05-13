@@ -21,11 +21,11 @@
 #include "Utils\Edit\TextChildFrm.h"
 #include "Utils\Edit\BaseTextDoc.h"
 #include "Utils\Edit\BaseTextView.h"
-
-#include "D:\Numbering\MGTools\Include\Utils\Utils.h"
-#include "D:\Numbering\MGTools\Include\Graph\2DGraph.h"
-#include "D:\Numbering\MGTools\Include\Graph\3DGraph.h"
-#include "D:\Numbering\MGTools\MGTools.h"
+//C:\Ilya\Programming\cpp\Numbering\Digit.cpp
+#include "MGTools\Include\Utils\Utils.h"
+#include "MGTools\Include\Graph\2DGraph.h"
+#include "MGTools\Include\Graph\3DGraph.h"
+#include "MGTools\MGTools.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW

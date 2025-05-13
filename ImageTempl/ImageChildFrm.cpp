@@ -11,7 +11,7 @@
 #include "ImageDoc.h"
 #include "ImageView.h"
 #include "..\Utils\mutils.h"
-#include "D:\Numbering\MGTools\Include\Utils\Utils.h"
+#include "..\MGTools\Include\Utils\Utils.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW

@@ -1,7 +1,7 @@
 #include "DigitInfo.h"
 #include "..\Utils\mutils.h"
 #include "..\Utils\middle.h"
-#include "D:\Numbering\MGTools\Include\Utils\Utils.h"
+#include "..\MGTools\Include\Utils\Utils.h"
 #include <math.h>
 
 CDigitInfo::CDigitInfo()

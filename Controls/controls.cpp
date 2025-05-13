@@ -1,6 +1,6 @@
 #include "controls.h"
 #include "..\Utils\mutils.h"
-#include "D:\Numbering\MGTools\Include\Utils\Utils.h"
+#include "..\MGTools\Include\Utils\Utils.h"
 #include "..\ImageTempl\ImageDoc.h"
 #include "..\ImageTempl\ImageView.h"
 

@@ -1,5 +1,5 @@
 #include "middle.h"
-#include "D:\Numbering\MGTools\Include\Utils\Utils.h"
+#include "..\MGTools\Include\Utils\Utils.h"
 
 void middle(unsigned char* line, int nx, int ny, int y, int **buf_line, 
 			CArray<double, double>& CenterFrg, int& nnpolos)

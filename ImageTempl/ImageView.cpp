@@ -10,7 +10,7 @@
 #include "ImageView.h"
 #include "..\ImageFeatures\SectionFrame.h"
 
-#include "D:\Numbering\MGTools\Include\Utils\Utils.h"
+#include "..\MGTools\Include\Utils\Utils.h"
 
 #include "..\ImageFeatures\ZoomDlg.h"
 

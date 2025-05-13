@@ -3,13 +3,13 @@
 #include "..\AppDef.h"
 #include "..\Utils\mutils.h"
 #include "ImageCtrls.h"
-#include "D:\Numbering\MGTools\Include\Utils\Utils.h"
-#include "D:\Numbering\MGTools\Include\Image\SecPcx.h"
-#include "D:\Numbering\MGTools\Include\Image\SecJpeg.h"
-#include "D:\Numbering\MGTools\Include\Image\SecGif.h"
-#include "D:\Numbering\MGTools\Include\Image\SecTarga.h"
-#include "D:\Numbering\MGTools\Include\Image\SecTiff.h"
-#include "D:\Numbering\MGTools\Include\Utils\Utils.h"
+#include "..\MGTools\Include\Utils\Utils.h"
+#include "..\MGTools\Include\Image\SecPcx.h"
+#include "..\MGTools\Include\Image\SecJpeg.h"
+#include "..\MGTools\Include\Image\SecGif.h"
+#include "..\MGTools\Include\Image\SecTarga.h"
+#include "..\MGTools\Include\Image\SecTiff.h"
+#include "..\MGTools\Include\Utils\Utils.h"
 //====================================================================
 CImageCtrls::CImageCtrls()
 {

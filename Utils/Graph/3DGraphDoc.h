@@ -6,10 +6,10 @@
 #endif // _MSC_VER > 1000
 // 3DGraphDoc.h : header file
 //
-
+//C:\Ilya\Programming\cpp\Numbering\Utils\Graph\3DGraphDoc.h
 /////////////////////////////////////////////////////////////////////////////
 // C3DGraphDoc document
-#include "D:\Numbering\MGTools\Include\Graph\3dGraph.h"
+#include "..\..\MGTools\Include\Graph\3dGraph.h"
 
 class C3DGraphDoc : public CDocument
 {

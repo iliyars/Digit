@@ -1,15 +1,16 @@
 #if !defined(AFX_DIGIT_INFO_H__558E5844_389D_11D4_8A51_83C94F0AD91B__INCLUDED_)
 #define AFX_DIGIT_INFO_H__558E5844_389D_11D4_8A51_83C94F0AD91B__INCLUDED_
+//C:\Ilya\Programming\cpp\Numbering\DigitMode\DigitInfo.h
+#include "..\MGTools\StdAfx.h"
+#include "..\Appdef.h"
 
-#include "D:\Numbering\MGTools\StdAfx.h"
-#include "D:\Numbering\Appdef.h"
-#include "D:\Numbering\MGTools\Include\Utils\BaseDataType.h"
+#include "..\MGTools\Include\Utils\BaseDataType.h"
 
-#include "D:\Numbering\DigitMode\SectionInfo.h"
-#include "D:\Numbering\DigitMode\DotInfo.h"
-#include "D:\Numbering\DigitMode\ZapLineInfo.h"
+#include "..\DigitMode\SectionInfo.h"
+#include "..\DigitMode\DotInfo.h"
+#include "..\DigitMode\ZapLineInfo.h"
 
-#include "D:\Numbering\InterfSolver\Tools\ReadWriteData.h"
+#include "..\InterfSolver\Tools\ReadWriteData.h"
 
 class CDigitInfo
 {
