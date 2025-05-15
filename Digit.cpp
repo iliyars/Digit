@@ -1,4 +1,4 @@
-// Digit.cpp : Defines the class behaviors for the application.
+Ôªø// Digit.cpp : Defines the class behaviors for the application.
 //
 
 #include <direct.h>
@@ -134,7 +134,7 @@ BOOL CDigitApp::InitInstance()
 	 intrLang = ENG_LANG;
   
   if(!ChangeIntrLang(intrLang)){
-      LPCTSTR Str = "Fail load resource DLL";//CRS("RusLang.dll ÌÂ Ì‡È‰ÂÌ‡","EngLang.dll is not available");
+      LPCTSTR Str = "Fail load resource DLL";//CRS("RusLang.dll √≠√• √≠√†√©√§√•√≠√†","EngLang.dll is not available");
       AfxMessageBox(Str, MB_OK | MB_ICONSTOP);
       return FALSE;
    }
@@ -318,7 +318,7 @@ bool CDigitApp::ChangeIntrLang(int iLang/*-1*/)
 
 void CDigitApp::OnFileOpen()
 {
-    LPCTSTR title = CRS("ŒÚÍ˚Ú¸ Ù‡ÈÎ", "Open file");
+    LPCTSTR title = CRS("√é√≤√™√∞√ª√≤√º √¥√†√©√´", "Open file");
     CSpecialFileDialog fileDlg(TRUE);
     CString fIndex;
 
@@ -330,11 +330,11 @@ void CDigitApp::OnFileOpen()
     LPCTSTR lan;
 	CString str;
     str.Empty();
-    lan = CRS("‘‡ÈÎ˚ (*.bmp;*.jpg;*.pcx;*.tif;*.tga)","Files (*.bmp;*.jpg;*.pcx;*.tif;*.tga)");
+    lan = CRS("√î√†√©√´√ª (*.bmp;*.jpg;*.pcx;*.tif;*.tga)","Files (*.bmp;*.jpg;*.pcx;*.tif;*.tga)");
     str += lan; str += (TCHAR)NULL;
     str += "*.bmp;*.jpg;*.pcx;*.tif;*.tga"; str += (TCHAR)NULL;
 
-    lan = CRS("‘‡ÈÎ˚ (*.frn;*.zap)","Files (*.frn;*.zap)");
+    lan = CRS("√î√†√©√´√ª (*.frn;*.zap)","Files (*.frn;*.zap)");
     str += lan; str += (TCHAR)NULL;
     str += "*.frn;*.zap"; str += (TCHAR)NULL;
 	
@@ -354,7 +354,9 @@ void CDigitApp::OnFileOpen()
     }
     else
        fileDlg.m_ofn.nFilterIndex = 1;
-    if(fileDlg.DoModal() == IDOK){
+
+    INT_PTR result = fileDlg.DoModal();
+    if(result == IDOK){
       POSITION pos = fileDlg.GetStartPosition();
       CString s;
       while(pos){
@@ -376,6 +378,14 @@ void CDigitApp::OnFileOpen()
         pMFr->SetImageInfo(pDoc->Digit.Comments, pDoc->Digit.ScaleFactor, pDoc->Digit.Rotation);
 	 }
 	}
+    else
+    {
+        DWORD err = CommDlgExtendedError();
+        CString msg;
+        msg.Format(_T("DoModal() –≤–µ—Ä–Ω—É–ª %d, CommDlgExtendedError() = 0x%08X"), (int)result, err);
+        AfxMessageBox(msg);
+        return;
+    }
 }
 
 int CDigitApp::ExitInstance() 

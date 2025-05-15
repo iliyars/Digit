@@ -1,4 +1,4 @@
-#ifndef __SPECFILEDLG_H__
+﻿#ifndef __SPECFILEDLG_H__
 #define __SPECFILEDLG_H__
 
 // SpecFileDlg.h : header file
@@ -16,11 +16,11 @@ public:
 // Construction
 public:
 	CSpecialFileDialog(BOOL bOpenFileDialog, // TRUE for FileOpen, FALSE for FileSaveAs
-		LPCTSTR lpszDefExt = NULL,
-		LPCTSTR lpszFileName = NULL,
-		DWORD dwFlags = OFN_HIDEREADONLY | OFN_OVERWRITEPROMPT,
-		LPCTSTR lpszFilter = NULL,
-		CWnd* pParentWnd = NULL);
+						LPCTSTR lpszDefExt = NULL,
+						LPCTSTR lpszFileName = NULL,
+						DWORD dwFlags = OFN_HIDEREADONLY | OFN_OVERWRITEPROMPT,
+						LPCTSTR lpszFilter = NULL,
+						CWnd* pParentWnd = NULL);
 
 // Dialog Data
 	//{{AFX_DATA(CSpecialFileDialog)
@@ -38,13 +38,14 @@ public:
 
 // Implementation
 protected:
-   void LoadPicture(LPCTSTR Filename);
-
+   void LoadPicture(LPCTSTR FilenameбCWnd, CWnd* pPreviewCtrl);
+	CWnd* m_pPreviewCtrl = nullptr;
 	// Generated message map functions
 	//{{AFX_MSG(CSpecialFileDialog)
 	virtual BOOL OnInitDialog();
 	afx_msg void OnDelete();
 	afx_msg void OnTimer(UINT nIDEvent);
+    void OnInitDone();
 	//}}AFX_MSG
 	DECLARE_MESSAGE_MAP()
 };

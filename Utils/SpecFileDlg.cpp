@@ -1,4 +1,4 @@
-// SpecFileDlg.cpp : implementation file
+﻿// SpecFileDlg.cpp : implementation file
 //
 
 #include "..\stdafx.h"
@@ -24,18 +24,27 @@ static char THIS_FILE[] = __FILE__;
 // CSpecialFileDialog dialog
 
 CSpecialFileDialog::CSpecialFileDialog(BOOL bOpenFileDialog,
-		LPCTSTR lpszDefExt, LPCTSTR lpszFileName, DWORD dwFlags,
-		LPCTSTR lpszFilter, CWnd* pParentWnd)
-	: CFileDialog(bOpenFileDialog, lpszDefExt, lpszFileName,
-		dwFlags, lpszFilter, pParentWnd)
+										LPCTSTR lpszDefExt,
+										LPCTSTR lpszFileName,
+										DWORD dwFlags,
+										LPCTSTR lpszFilter,
+										CWnd* pParentWnd)
+	: CFileDialog(	bOpenFileDialog,
+					lpszDefExt,
+					lpszFileName,
+					dwFlags | OFN_ENABLETEMPLATE | OFN_ENABLEHOOK | OFN_EXPLORER,
+					lpszFilter,
+					pParentWnd,
+					0,
+					FALSE)  // Отключаем Vista-style
 {
 	//{{AFX_DATA_INIT(CSpecialFileDialog)
 		// NOTE: the ClassWizard will add member initialization here
 	//}}AFX_DATA_INIT
-	m_ofn.Flags |= OFN_ENABLETEMPLATE;
+	//m_ofn.Flags |= OFN_ENABLETEMPLATE;
 	m_ofn.lpTemplateName = MAKEINTRESOURCE(IDD_FILESPECIAL);
-	m_ofn.lpstrTitle = "Delete File";
-	m_bDeleteAll = FALSE;
+	//m_ofn.lpstrTitle = "Delete File";
+	//m_bDeleteAll = FALSE;
 }
 
 
@@ -69,6 +78,21 @@ BOOL CSpecialFileDialog::OnInitDialog()
 	return bRet;
 }
 
+void CSpecialFileDialog::OnInitDone()
+{
+	// Обязательно вызвать базовый, чтобы MFC довело дело до конца
+	CFileDialog::OnInitDone();
+
+	// Теперь ваш шаблон точно подгружен, контролы созданы
+	CWnd* pW = GetDlgItem(IDBM_PREOPEN_PICTURE);
+	//ASSERT(pW);  // на отладке упадёт, если что-то не так с ресурсом
+	// Здесь можно один раз сохранить pW в член класса или сразу
+	// инициализировать размер/фон, чтобы в OnFileNameChange
+	// не было проблем
+
+	m_pPreviewCtrl = pW;
+}
+
 void CSpecialFileDialog::OnDelete() 
 {
 //	m_bDeleteAll = TRUE;
@@ -83,7 +107,11 @@ void CSpecialFileDialog::OnFileNameChange()
 	CString path = GetPathName();
 
 	if(!path.IsEmpty() && oldFilename != path){
-        LoadPicture(LPCTSTR(path));
+
+		if (m_pPreviewCtrl)
+			LoadPicture(path, m_pPreviewCtrl);
+
+       // LoadPicture(LPCTSTR(path), m_pPreviewCtrl);
 		oldFilename = path;
 	}
 }
@@ -93,7 +121,7 @@ void CSpecialFileDialog::OnTimer(UINT nIDEvent)
 	CFileDialog::OnTimer(nIDEvent);
 }
 
-void CSpecialFileDialog::LoadPicture(LPCTSTR Filename)
+void CSpecialFileDialog::LoadPicture(LPCTSTR Filename, CWnd* pPreviewCtrl)
 {
 	if(!IsFileExist(Filename, FALSE)){
 		Invalidate(FALSE);
@@ -101,8 +129,12 @@ void CSpecialFileDialog::LoadPicture(LPCTSTR Filename)
 	}
 	
 	 CClientDC dc(this);
-	 CWnd* pW = GetDlgItem(IDBM_PREOPEN_PICTURE);
-     CRect wR; pW->GetWindowRect(wR);
+
+	 CRect wR;
+	 pPreviewCtrl->GetClientRect(&wR);
+
+	 //CWnd* pW = GetDlgItem(IDBM_PREOPEN_PICTURE);
+     //CRect wR; pW->GetWindowRect(wR);
      ScreenToClient(wR);
 
 	 CString s = Filename;
