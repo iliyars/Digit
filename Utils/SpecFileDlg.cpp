@@ -27,7 +27,7 @@ CSpecialFileDialog::CSpecialFileDialog(BOOL bOpenFileDialog,
 		LPCTSTR lpszDefExt, LPCTSTR lpszFileName, DWORD dwFlags,
 		LPCTSTR lpszFilter, CWnd* pParentWnd)
 	: CFileDialog(bOpenFileDialog, lpszDefExt, lpszFileName,
-		dwFlags, lpszFilter, pParentWnd)
+		dwFlags, lpszFilter, pParentWnd, 0, FALSE)
 {
 	//{{AFX_DATA_INIT(CSpecialFileDialog)
 		// NOTE: the ClassWizard will add member initialization here
