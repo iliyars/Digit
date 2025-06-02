@@ -6,12 +6,13 @@
 #include "..\resource.h"
 /////////////////////////////////////////////////////////////////////////////
 // CSpecialFileDialog dialog
-
+#define WM_LOAD_PICTURE (WM_USER + 100)
 class CSpecialFileDialog : public CFileDialog
 {
 public:
 	CString oldFilename;
 	BOOL m_bDeleteAll;
+	CString m_pendingPicturePath;
 
 // Construction
 public:
@@ -39,7 +40,7 @@ public:
 // Implementation
 protected:
    void LoadPicture(LPCTSTR Filename);
-
+   afx_msg LRESULT OnDelayedLoadPicture(WPARAM wParam, LPARAM lParam);
 	// Generated message map functions
 	//{{AFX_MSG(CSpecialFileDialog)
 	virtual BOOL OnInitDialog();
