@@ -4,6 +4,7 @@
 #include "XYPoint.h"
 #include "XYBounds.h"
 #include "XYPolygon.h"
+#include "XYBrokenLine.h"
 
 class XYEllipse 
   {
@@ -31,9 +32,9 @@ class XYEllipse
     bool isInside(double X, double Y);
     bool isVisible(const XYPoint &P) const;
     bool isVisible(double X, double Y);
-    bool GetContour(XYBrokenLine &BLine, int NFi);
+    bool GetContour(XYBrokenLine& BLine, int NFi) const;
     bool GetContour(XYBrokenLine &BLine, double Step) const;
-    bool GetContour(XYPolygon &Plg, int NFi);
+    bool GetContour(XYPolygon& Plg, int NFi) const;
     bool GetContour(XYPolygon &Plg, double Step) const;
     void InverseY(double YcInv);
     void ShiftX(double dX);

@@ -115,7 +115,7 @@ bool XYEllipse :: isVisible(double X, double Y)
   return isVisible(P);
   }
 //=========================================================================
-bool XYEllipse :: GetContour(XYBrokenLine &BLine, int NFi)
+bool XYEllipse :: GetContour(XYBrokenLine &BLine, int NFi) const 
   {
   BLine.RemoveAll();
   double Th, dTh, SiT, CoT, AveR, R;
@@ -147,7 +147,7 @@ bool XYEllipse :: GetContour(XYBrokenLine &BLine, double Step) const
   return isSuccess;
   }
 //=========================================================================
-bool XYEllipse :: GetContour(XYPolygon &Plg, int NFi)
+bool XYEllipse :: GetContour(XYPolygon &Plg, int NFi) const
   {
   Plg.RemoveAll();
   XYBrokenLine BLine;
