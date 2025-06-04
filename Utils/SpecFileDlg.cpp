@@ -1,9 +1,8 @@
-// SpecFileDlg.cpp : implementation file
+﻿// SpecFileDlg.cpp : implementation file
 //
 
 #include "..\stdafx.h"
 #include "SpecFileDlg.h"
-//C:\Ilya\Programming\cpp\Numbering\Utils\SpecFileDlg.cpp
 #include "..\MGTools\Include\Graph\GraphTools.h"
 #include "..\MGTools\Include\Utils\Utils.h"
 
@@ -82,14 +81,26 @@ void CSpecialFileDialog::OnFileNameChange()
 {
 	CString path = GetPathName();
 
-	if(!path.IsEmpty() && oldFilename != path){
-        LoadPicture(LPCTSTR(path));
+	if(!path.IsEmpty() && oldFilename != path){	
+		
 		oldFilename = path;
+		LoadPicture(path);
 	}
 }
-
+afx_msg LRESULT CSpecialFileDialog::OnDelayedLoadPicture(WPARAM wParam, LPARAM lParam) 
+{
+	if (!m_pendingPicturePath.IsEmpty())
+	{
+		LoadPicture(m_pendingPicturePath);
+	}
+	return 0;
+}
 void CSpecialFileDialog::OnTimer(UINT nIDEvent) 
 {
+	if (nIDEvent == 1) {
+		KillTimer(1);
+		LoadPicture(m_pendingPicturePath);
+	}
 	CFileDialog::OnTimer(nIDEvent);
 }
 
@@ -101,7 +112,24 @@ void CSpecialFileDialog::LoadPicture(LPCTSTR Filename)
 	}
 	
 	 CClientDC dc(this);
-	 CWnd* pW = GetDlgItem(IDBM_PREOPEN_PICTURE);
+	 HWND hParent = ::GetParent(GetSafeHwnd());
+	 if (!hParent) {
+		 TRACE(_T("Родительское окно не найдено.\n"));
+		 return;
+	 }
+
+	 HWND hCtl = ::GetDlgItem(hParent, IDBM_PREOPEN_PICTURE);
+	 if (!hCtl) {
+		 TRACE(_T("IDBM_PREOPEN_PICTURE не найден через ::GetDlgItem.\n"));
+		 return;
+	 }
+
+	 CWnd* pW = CWnd::FromHandle(hCtl);
+	 if (pW == nullptr)
+	 {
+		 TRACE(_T("Контрол IDBM_PREOPEN_PICTURE не найден.\n"));
+		 return;
+	 }
      CRect wR; pW->GetWindowRect(wR);
      ScreenToClient(wR);
 

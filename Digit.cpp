@@ -316,10 +316,10 @@ bool CDigitApp::ChangeIntrLang(int iLang/*-1*/)
   else return false;
 }
 
-void CDigitApp::OnFileOpen()
+void CDigitApp::OnFileOpen() 
 {
     LPCTSTR title = CRS("Открыть файл", "Open file");
-    CSpecialFileDialog fileDlg(TRUE);
+    CSpecialFileDialog fileDlg(TRUE); // ?????? fileDlg = null
     CString fIndex;
 
     TCHAR strName[_MAX_PATH];
