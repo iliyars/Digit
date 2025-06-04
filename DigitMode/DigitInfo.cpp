@@ -1,4 +1,4 @@
-#include "DigitInfo.h"
+﻿#include "DigitInfo.h"
 #include "..\Utils\mutils.h"
 #include "..\Utils\middle.h"
 #include "..\MGTools\Include\Utils\Utils.h"
@@ -1724,6 +1724,14 @@ BOOL CDigitInfo::LoadZAP(LPCTSTR fname)
 	   return FALSE;
 
    CImageCtrls* pI = GetImageCtrls();
+
+   //Вызов LoadImage для инициализации m_pDIB
+   if (!pI->LoadImage(IntInfo.ImageFileName))
+   {
+	   AfxMessageBox(_T("Не удалось загрузить изображение из ZAP-файла"));
+	   return FALSE;
+   }
+
    CreateBufLine();
    if(pI->m_pDIB){
 	   CreateRedCenters();
