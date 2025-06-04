@@ -53,6 +53,8 @@ BOOL ReadWinZAPData(const CString &FileName, NUMBERING_INTERFEROGRAM_INFO &IntIn
     IntInfo.ScaleFactor = atof(Str);
   if (Fl.GetStringAfter("[GENERAL]", "FiScan", Str))
     IntInfo.FiScan = atof(Str);
+  if (Fl.GetStringAfter("[General]", "IMAGE", Str))
+      IntInfo.ImageFileName = Str;
 
 
   if (Fl.SeekToSection("[ELLIPSES]"))
@@ -162,6 +164,8 @@ BOOL ReadDosZAPData(const CString &FileName, NUMBERING_INTERFEROGRAM_INFO &IntIn
     IntInfo.ScaleFactor = atof(Str);
   if (Fl.GetStringAfter("FISCAN", Str))
     IntInfo.FiScan = atof(Str);
+  if (Fl.GetStringAfter("IMAGE", Str))
+      IntInfo.ImageFileName = Str;
 
   XYBounds Bnd;
   Fl.GetStringAfter("FIDS", Str);
@@ -537,6 +541,7 @@ void WriteDosZAPData(const CString &FileName, NUMBERING_INTERFEROGRAM_INFO &IntI
   Fl.WriteStringAfter("NUMBER", " ", Str);
   Str.Format("%-1.2lf", IntInfo.FiScan);
   Fl.WriteStringAfter("FISCAN", " " ,Str);
+  Fl.WriteStringWithEnd("IMAGE " + IntInfo.ImageFileName + "\n");
 
   double Xc, Yc, Rad;
   CalcBoundCircle(IntInfo.ArrEll, IntInfo.ArrRect, IntInfo.ArrPlg, Xc, Yc, Rad);
